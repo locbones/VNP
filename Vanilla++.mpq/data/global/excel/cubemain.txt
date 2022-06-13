@@ -623,10 +623,10 @@ Key Cycle - Destruction	1			100					1	y44							y45																													
 Organ Cycle - Diablo	1			100					1	y45							y46																																																																																							0
 Organ Cycle - Baal	1			100					1	y46							y47																																																																																							0
 Organ Cycle - Mephisto	1			100					1	y47							y42																																																																																							0
-Rune Convert - Low -> Mid	1			100					2	y01	y48						useitem				RB-Low			-2048	-2048	RB-Mid			1	1																y48																																																										0
-Rune Convert - Mid -> High	1			100					2	y01	y49						useitem				RB-Mid			-2048	-2048	RB-High			1	1																y49																																																										0
-Rune Convert - Low <- Mid	1			100					2	y01	y50						useitem				RB-Low			2048	2048	RB-Mid			-1	-1																y50																																																										0
-Rune Convert - Mid <- High	1			100					2	y01	y51						useitem				RB-Mid			2048	2048	RB-High			-1	-1																y51																																																										0
+Rune Convert - Low -> Mid	1			100	15	362	2048		2	y01	y48						useitem				RB-Low			-2048	-2048	RB-Mid			1	1																y48																																																										0
+Rune Convert - Mid -> High	1			100	15	363	2048		2	y01	y49						useitem				RB-Mid			-2048	-2048	RB-High			1	1																y49																																																										0
+Rune Convert - Low <- Mid	1			100	15	363	1		2	y01	y50						useitem				RB-Low			2048	2048	RB-Mid			-1	-1																y50																																																										0
+Rune Convert - Mid <- High	1			100	15	364	1		2	y01	y51						useitem				RB-Mid			2048	2048	RB-High			-1	-1																y51																																																										0
 Rune Convert Cycle	1			100					1	y48							y49																																																																																							0
 Rune Convert Cycle	1			100					1	y49							y50																																																																																							0
 Rune Convert Cycle	1			100					1	y50							y51																																																																																							0

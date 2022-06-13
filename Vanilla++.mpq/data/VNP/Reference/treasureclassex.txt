@@ -8,6 +8,8 @@ Flawed Gem			1						gfv	3	gfy	3	gfb	3	gfg	3	gfr	3	gfw	3	skf	2										0
 Normal Gem			1						gsv	3	gsy	3	gsb	3	gsg	3	gsr	3	gsw	3	sku	2										0
 Flawless Gem			1						gzv	3	gly	3	glb	3	glg	3	glr	3	glw	3	skl	2										0
 Perfect Gem			1						gpv	3	gpy	3	gpb	3	gpg	3	gpr	3	gpw	3	skz	2										0
+Socket Puncher			1					4	y60	1																						0
+Empty Bottle			1					9	y52	1																						0
 Ammo			1						aqv	1																						0
 Misc 0			1						key	3	tsc	3	isc	3	opl	2	gpl	2														0
 Misc 1			1						key	3	tsc	3	isc	3	opm	2	gpm	2														0
@@ -48,21 +50,21 @@ Ess1			1	1024				19	tes	1																						0
 Ess2			1	1024				19	ceh	1																						0
 Ess3			1	1024				19	bet	1																						0
 Ess4			1	1024				19	fed	1																						0
-Act 1 Junk			1					0	Potion 1	8	Misc 0	4	Ammo	4																		0
-Act 2 Junk			1					0	Act 1 Junk	2	Potion 2	8	Misc 0	4	Ammo	4																0
-Act 3 Junk			1					0	Act 2 Junk	2	Potion 3	8	Misc 1	4	Ammo	4																0
-Act 4 Junk			1					0	Act 3 Junk	2	Potion 4	8	Misc 1	4	Ammo	4																0
-Act 5 Junk			1					0	Act 4 Junk	2	Potion 5	8	Misc 2	4	Ammo	4																0
-Act 1 (N) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	4																0
-Act 2 (N) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	4																0
-Act 3 (N) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	4																0
-Act 4 (N) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	4																0
-Act 5 (N) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	4																0
-Act 1 (H) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	4																0
-Act 2 (H) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	4																0
-Act 3 (H) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	4																0
-Act 4 (H) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	4																0
-Act 5 (H) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	4																0
+Act 1 Junk			1					0	Potion 1	8	Misc 0	4	Ammo	1	"gld,mul=500"	2																0
+Act 2 Junk			1					0	Act 1 Junk	2	Potion 2	8	Misc 0	4	Ammo	1	"gld,mul=500"	2														0
+Act 3 Junk			1					0	Act 2 Junk	2	Potion 3	8	Misc 1	4	Ammo	1	"gld,mul=500"	2														0
+Act 4 Junk			1					0	Act 3 Junk	2	Potion 4	8	Misc 1	4	Ammo	1	"gld,mul=500"	2														0
+Act 5 Junk			1					0	Act 4 Junk	2	Potion 5	8	Misc 2	4	Ammo	2	"gld,mul=500"	2														0
+Act 1 (N) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	1	"gld,mul=500"	2														0
+Act 2 (N) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	1	"gld,mul=500"	2														0
+Act 3 (N) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	1	"gld,mul=500"	2														0
+Act 4 (N) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	2	"gld,mul=500"	2														0
+Act 5 (N) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	2	"gld,mul=500"	2														0
+Act 1 (H) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	1	"gld,mul=500"	2														0
+Act 2 (H) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	2	"gld,mul=500"	2														0
+Act 3 (H) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	1	"gld,mul=500"	2														0
+Act 4 (H) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	2	"gld,mul=500"	2														0
+Act 5 (H) Junk			1					0	Act 5 Junk	2	Potion 6	8	Misc 2	4	Ammo	2	"gld,mul=500"	2														0
 Act 1 Equip A	1	0	1					0	weap3	7	armo3	7																				0
 Act 1 Equip B	1	5	1					0	weap3	3	armo3	3	weap6	7	armo6	7																0
 Act 1 Equip C	1	9	1					0	weap3	2	armo3	1	weap6	6	armo6	3	weap9	14	armo9	7	weap12	2	armo12	1								0
@@ -245,36 +247,36 @@ Act 4 Chest C	6	30	4					100	Act 4 Junk	15	Act 4 Equip B	10	Act 4 Good	2								
 Act 5 Chest A	6	32	4					100	Act 5 Junk	15	Act 5 Equip A	10	Act 5 Good	2																		0
 Act 5 Chest B	6	34	4					100	Act 5 Junk	15	Act 5 Equip B	10	Act 5 Good	2																		0
 Act 5 Chest C	6	36	4					100	Act 5 Junk	15	Act 5 Equip B	10	Act 5 Good	2																		0
-Act 1 (N) Chest A	6	38	4					100	Act 1 (N) Junk	15	Act 1 (N) Equip A	10	Act 1 (N) Good	2																		0
-Act 1 (N) Chest B	6	40	4					100	Act 1 (N) Junk	15	Act 1 (N) Equip B	10	Act 1 (N) Good	2																		0
-Act 1 (N) Chest C	6	42	4					100	Act 1 (N) Junk	15	Act 1 (N) Equip B	10	Act 1 (N) Good	2																		0
-Act 2 (N) Chest A	6	44	4					100	Act 2 (N) Junk	15	Act 2 (N) Equip A	10	Act 2 (N) Good	2																		0
-Act 2 (N) Chest B	6	46	4					100	Act 2 (N) Junk	15	Act 2 (N) Equip B	10	Act 2 (N) Good	2																		0
-Act 2 (N) Chest C	6	48	4					100	Act 2 (N) Junk	15	Act 2 (N) Equip B	10	Act 2 (N) Good	2																		0
-Act 3 (N) Chest A	6	50	4					100	Act 3 (N) Junk	15	Act 3 (N) Equip A	10	Act 3 (N) Good	2																		0
-Act 3 (N) Chest B	6	52	4					100	Act 3 (N) Junk	15	Act 3 (N) Equip B	10	Act 3 (N) Good	2																		0
-Act 3 (N) Chest C	6	54	4					100	Act 3 (N) Junk	15	Act 3 (N) Equip B	10	Act 3 (N) Good	2																		0
-Act 4 (N) Chest A	6	56	4					100	Act 4 (N) Junk	15	Act 4 (N) Equip A	10	Act 4 (N) Good	2																		0
-Act 4 (N) Chest B	6	58	4					100	Act 4 (N) Junk	15	Act 4 (N) Equip B	10	Act 4 (N) Good	2																		0
-Act 4 (N) Chest C	6	60	4					100	Act 4 (N) Junk	15	Act 4 (N) Equip C	10	Act 4 (N) Good	2																		0
-Act 5 (N) Chest A	6	62	4					100	Act 5 (N) Junk	15	Act 5 (N) Equip A	10	Act 5 (N) Good	2																		0
-Act 5 (N) Chest B	6	64	4					100	Act 5 (N) Junk	15	Act 5 (N) Equip B	10	Act 5 (N) Good	2																		0
-Act 5 (N) Chest C	6	66	4					100	Act 5 (N) Junk	15	Act 5 (N) Equip B	10	Act 5 (N) Good	2																		0
-Act 1 (H) Chest A	6	68	4					100	Act 1 (H) Junk	15	Act 1 (H) Equip A	10	Act 1 (H) Good	2																		0
-Act 1 (H) Chest B	6	70	4					100	Act 1 (H) Junk	15	Act 1 (H) Equip B	10	Act 1 (H) Good	2																		0
-Act 1 (H) Chest C	6	71	4					100	Act 1 (H) Junk	15	Act 1 (H) Equip B	10	Act 1 (H) Good	2																		0
-Act 2 (H) Chest A	6	72	4					100	Act 2 (H) Junk	15	Act 2 (H) Equip A	10	Act 2 (H) Good	2																		0
-Act 2 (H) Chest B	6	74	4					100	Act 2 (H) Junk	15	Act 2 (H) Equip B	10	Act 2 (H) Good	2																		0
-Act 2 (H) Chest C	6	75	4					100	Act 2 (H) Junk	15	Act 2 (H) Equip B	10	Act 2 (H) Good	2																		0
-Act 3 (H) Chest A	6	76	4					100	Act 3 (H) Junk	15	Act 3 (H) Equip A	10	Act 3 (H) Good	2																		0
-Act 3 (H) Chest B	6	78	4					100	Act 3 (H) Junk	15	Act 3 (H) Equip B	10	Act 3 (H) Good	2																		0
-Act 3 (H) Chest C	6	79	4					100	Act 3 (H) Junk	15	Act 3 (H) Equip B	10	Act 3 (H) Good	2																		0
-Act 4 (H) Chest A	6	80	4					100	Act 4 (H) Junk	15	Act 4 (H) Equip A	10	Act 4 (H) Good	2																		0
-Act 4 (H) Chest B	6	81	4					100	Act 4 (H) Junk	15	Act 4 (H) Equip B	10	Act 4 (H) Good	2																		0
-Act 4 (H) Chest C	6	82	4					100	Act 4 (H) Junk	15	Act 4 (H) Equip B	10	Act 4 (H) Good	2																		0
-Act 5 (H) Chest A	6	83	4					100	Act 5 (H) Junk	15	Act 5 (H) Equip A	10	Act 5 (H) Good	2																		0
-Act 5 (H) Chest B	6	84	4					100	Act 5 (H) Junk	15	Act 5 (H) Equip B	10	Act 5 (H) Good	2																		0
-Act 5 (H) Chest C	6	85	4					100	Act 5 (H) Junk	15	Act 5 (H) Equip B	10	Act 5 (H) Good	2																		0
+Act 1 (N) Chest A	6	38	4					400	Act 1 (N) Junk	60	Act 1 (N) Equip A	40	Act 1 (N) Good	8	Socket Puncher	1																0
+Act 1 (N) Chest B	6	40	4					400	Act 1 (N) Junk	60	Act 1 (N) Equip B	40	Act 1 (N) Good	8	Socket Puncher	1																0
+Act 1 (N) Chest C	6	42	4					400	Act 1 (N) Junk	60	Act 1 (N) Equip B	40	Act 1 (N) Good	8	Socket Puncher	1																0
+Act 2 (N) Chest A	6	44	4					400	Act 2 (N) Junk	60	Act 2 (N) Equip A	40	Act 2 (N) Good	8	Socket Puncher	1																0
+Act 2 (N) Chest B	6	46	4					400	Act 2 (N) Junk	60	Act 2 (N) Equip B	40	Act 2 (N) Good	8	Socket Puncher	1																0
+Act 2 (N) Chest C	6	48	4					400	Act 2 (N) Junk	60	Act 2 (N) Equip B	40	Act 2 (N) Good	8	Socket Puncher	1																0
+Act 3 (N) Chest A	6	50	4					400	Act 3 (N) Junk	60	Act 3 (N) Equip A	40	Act 3 (N) Good	8	Socket Puncher	1																0
+Act 3 (N) Chest B	6	52	4					400	Act 3 (N) Junk	60	Act 3 (N) Equip B	40	Act 3 (N) Good	8	Socket Puncher	1																0
+Act 3 (N) Chest C	6	54	4					400	Act 3 (N) Junk	60	Act 3 (N) Equip B	40	Act 3 (N) Good	8	Socket Puncher	1																0
+Act 4 (N) Chest A	6	56	4					400	Act 4 (N) Junk	60	Act 4 (N) Equip A	40	Act 4 (N) Good	8	Socket Puncher	1																0
+Act 4 (N) Chest B	6	58	4					400	Act 4 (N) Junk	60	Act 4 (N) Equip B	40	Act 4 (N) Good	8	Socket Puncher	1																0
+Act 4 (N) Chest C	6	60	4					400	Act 4 (N) Junk	60	Act 4 (N) Equip C	40	Act 4 (N) Good	8	Socket Puncher	1																0
+Act 5 (N) Chest A	6	62	4					400	Act 5 (N) Junk	60	Act 5 (N) Equip A	40	Act 5 (N) Good	8	Socket Puncher	1																0
+Act 5 (N) Chest B	6	64	4					400	Act 5 (N) Junk	60	Act 5 (N) Equip B	40	Act 5 (N) Good	8	Socket Puncher	1																0
+Act 5 (N) Chest C	6	66	4					400	Act 5 (N) Junk	60	Act 5 (N) Equip B	40	Act 5 (N) Good	8	Socket Puncher	1																0
+Act 1 (H) Chest A	6	68	4					400	Act 1 (H) Junk	60	Act 1 (H) Equip A	40	Act 1 (H) Good	8	Socket Puncher	1																0
+Act 1 (H) Chest B	6	70	4					400	Act 1 (H) Junk	60	Act 1 (H) Equip B	40	Act 1 (H) Good	8	Socket Puncher	1																0
+Act 1 (H) Chest C	6	71	4					400	Act 1 (H) Junk	60	Act 1 (H) Equip B	40	Act 1 (H) Good	8	Socket Puncher	1																0
+Act 2 (H) Chest A	6	72	4					400	Act 2 (H) Junk	60	Act 2 (H) Equip A	40	Act 2 (H) Good	8	Socket Puncher	1																0
+Act 2 (H) Chest B	6	74	4					400	Act 2 (H) Junk	60	Act 2 (H) Equip B	40	Act 2 (H) Good	8	Socket Puncher	1																0
+Act 2 (H) Chest C	6	75	4					400	Act 2 (H) Junk	60	Act 2 (H) Equip B	40	Act 2 (H) Good	8	Socket Puncher	1																0
+Act 3 (H) Chest A	6	76	4					400	Act 3 (H) Junk	60	Act 3 (H) Equip A	40	Act 3 (H) Good	8	Socket Puncher	1																0
+Act 3 (H) Chest B	6	78	4					400	Act 3 (H) Junk	60	Act 3 (H) Equip B	40	Act 3 (H) Good	8	Socket Puncher	1																0
+Act 3 (H) Chest C	6	79	4					400	Act 3 (H) Junk	60	Act 3 (H) Equip B	40	Act 3 (H) Good	8	Socket Puncher	1																0
+Act 4 (H) Chest A	6	80	4					400	Act 4 (H) Junk	60	Act 4 (H) Equip A	40	Act 4 (H) Good	8	Socket Puncher	1																0
+Act 4 (H) Chest B	6	81	4					400	Act 4 (H) Junk	60	Act 4 (H) Equip B	40	Act 4 (H) Good	8	Socket Puncher	1																0
+Act 4 (H) Chest C	6	82	4					400	Act 4 (H) Junk	60	Act 4 (H) Equip B	40	Act 4 (H) Good	8	Socket Puncher	1																0
+Act 5 (H) Chest A	6	83	4					400	Act 5 (H) Junk	60	Act 5 (H) Equip A	40	Act 5 (H) Good	8	Socket Puncher	1																0
+Act 5 (H) Chest B	6	84	4					400	Act 5 (H) Junk	60	Act 5 (H) Equip B	40	Act 5 (H) Good	8	Socket Puncher	1																0
+Act 5 (H) Chest C	6	85	4					400	Act 5 (H) Junk	60	Act 5 (H) Equip B	40	Act 5 (H) Good	8	Socket Puncher	1																0
 Act 1 H2H A	7	0	1					100	Act 1 Equip A	16	Act 1 Junk	21	Act 1 Good	2																		0
 Act 1 H2H B	7	5	1					100	Act 1 Equip B	16	Act 1 Junk	21	Act 1 Good	2																		0
 Act 1 H2H C	7	9	1					100	Act 1 Equip C	16	Act 1 Junk	21	Act 1 Good	2																		0
@@ -359,48 +361,48 @@ Act 4 (H) Cast B	8	80	1					100	Act 4 (H) Equip B	15	Act 1 (H) Junk	18	Act 4 (H)
 Act 5 (H) Cast A	8	81	1					100	Act 5 (H) Equip A	15	Act 1 (H) Junk	18	Act 5 (H) Good	2	Act 5 (H) Magic A	7																0
 Act 5 (H) Cast B	8	83	1					100	Act 5 (H) Equip B	15	Act 1 (H) Junk	18	Act 5 (H) Good	2	Act 5 (H) Magic B	7																0
 Act 5 (H) Cast C	8	85	1					100	Act 5 (H) Equip C	15	Act 1 (H) Junk	18	Act 5 (H) Good	2	Act 5 (H) Magic B	7																0
-Act 1 Miss A	9	0	1					100	Act 1 Equip A	13	Act 1 Junk	18	Act 1 Good	2	Act 1 Bow A	6	Ammo	3														0
-Act 1 Miss B	9	5	1					100	Act 1 Equip B	13	Act 1 Junk	18	Act 1 Good	2	Act 1 Bow B	6	Ammo	3														0
-Act 1 Miss C	9	9	1					100	Act 1 Equip C	13	Act 1 Junk	18	Act 1 Good	2	Act 1 Bow C	6	Ammo	3														0
-Act 2 Miss A	9	12	1					100	Act 2 Equip A	13	Act 2 Junk	18	Act 2 Good	2	Act 2 Bow A	6	Ammo	3														0
-Act 2 Miss B	9	15	1					100	Act 2 Equip B	13	Act 2 Junk	18	Act 2 Good	2	Act 2 Bow B	6	Ammo	3														0
-Act 2 Miss C	9	18	1					100	Act 2 Equip C	13	Act 2 Junk	18	Act 3 Good	2	Act 2 Bow C	6	Ammo	3														0
-Act 3 Miss A	9	20	1					100	Act 3 Equip A	13	Act 3 Junk	18	Act 3 Good	2	Act 3 Bow A	6	Ammo	3														0
-Act 3 Miss B	9	22	1					100	Act 3 Equip B	13	Act 3 Junk	18	Act 3 Good	2	Act 3 Bow B	6	Ammo	3														0
-Act 3 Miss C	9	24	1					100	Act 3 Equip C	13	Act 3 Junk	18	Act 3 Good	2	Act 3 Bow C	6	Ammo	3														0
-Act 4 Miss A	9	26	1					100	Act 4 Equip A	13	Act 4 Junk	18	Act 4 Good	2	Act 4 Bow A	6	Ammo	3														0
-Act 4 Miss B	9	29	1					100	Act 4 Equip B	13	Act 4 Junk	18	Act 4 Good	2	Act 4 Bow B	6	Ammo	3														0
-Act 5 Miss A	9	32	1					100	Act 5 Equip A	13	Act 5 Junk	18	Act 5 Good	2	Act 5 Bow A	6	Ammo	3														0
-Act 5 Miss B	9	34	1					100	Act 5 Equip B	13	Act 5 Junk	18	Act 5 Good	2	Act 5 Bow B	6	Ammo	3														0
-Act 5 Miss C	9	36	1					100	Act 5 Equip C	13	Act 5 Junk	18	Act 5 Good	2	Act 5 Bow B	6	Ammo	3														0
-Act 1 (N) Miss A	9	38	1					100	Act 1 (N) Equip A	13	Act 1 (N) Junk	18	Act 1 (N) Good	2	Act 1 (N) Bow A	6	Ammo	3														0
-Act 1 (N) Miss B	9	40	1					100	Act 1 (N) Equip B	13	Act 1 (N) Junk	18	Act 1 (N) Good	2	Act 1 (N) Bow B	6	Ammo	3														0
-Act 1 (N) Miss C	9	41	1					100	Act 1 (N) Equip B	13	Act 1 (N) Junk	18	Act 1 (N) Good	2	Act 1 (N) Bow B	6	Ammo	3														0
-Act 2 (N) Miss A	9	42	1					100	Act 2 (N) Equip A	13	Act 2 (N) Junk	18	Act 2 (N) Good	2	Act 2 (N) Bow A	6	Ammo	3														0
-Act 2 (N) Miss B	9	44	1					100	Act 2 (N) Equip B	13	Act 2 (N) Junk	18	Act 2 (N) Good	2	Act 2 (N) Bow B	6	Ammo	3														0
-Act 2 (N) Miss C	9	45	1					100	Act 2 (N) Equip B	13	Act 2 (N) Junk	18	Act 2 (N) Good	2	Act 2 (N) Bow B	6	Ammo	3														0
-Act 3 (N) Miss A	9	46	1					100	Act 3 (N) Equip A	13	Act 3 (N) Junk	18	Act 3 (N) Good	2	Act 3 (N) Bow A	6	Ammo	3														0
-Act 3 (N) Miss B	9	48	1					100	Act 3 (N) Equip B	13	Act 3 (N) Junk	18	Act 3 (N) Good	2	Act 3 (N) Bow B	6	Ammo	3														0
-Act 3 (N) Miss C	9	50	1					100	Act 3 (N) Equip B	13	Act 3 (N) Junk	18	Act 3 (N) Good	2	Act 3 (N) Bow B	6	Ammo	3														0
-Act 4 (N) Miss A	9	51	1					100	Act 4 (N) Equip A	13	Act 4 (N) Junk	18	Act 4 (N) Good	2	Act 4 (N) Bow A	6	Ammo	3														0
-Act 4 (N) Miss B	9	54	1					100	Act 4 (N) Equip B	13	Act 4 (N) Junk	18	Act 4 (N) Good	2	Act 4 (N) Bow B	6	Ammo	3														0
-Act 5 (N) Miss A	9	57	1					100	Act 5 (N) Equip A	13	Act 5 (N) Junk	18	Act 5 (N) Good	2	Act 5 (N) Bow A	6	Ammo	3														0
-Act 5 (N) Miss B	9	60	1					100	Act 5 (N) Equip B	13	Act 5 (N) Junk	18	Act 5 (N) Good	2	Act 5 (N) Bow B	6	Ammo	3														0
-Act 5 (N) Miss C	9	62	1					100	Act 5 (N) Equip C	13	Act 5 (N) Junk	18	Act 5 (N) Good	2	Act 5 (N) Bow B	6	Ammo	3														0
-Act 1 (H) Miss A	9	63	1					100	Act 1 (H) Equip A	13	Act 1 (H) Junk	18	Act 1 (H) Good	2	Act 1 (H) Bow A	6	Ammo	3														0
-Act 1 (H) Miss B	9	66	1					100	Act 1 (H) Equip B	13	Act 1 (H) Junk	18	Act 1 (H) Good	2	Act 1 (H) Bow B	6	Ammo	3														0
-Act 1 (H) Miss C	9	68	1					100	Act 1 (H) Equip B	13	Act 1 (H) Junk	18	Act 1 (H) Good	2	Act 1 (H) Bow B	6	Ammo	3														0
-Act 2 (H) Miss A	9	69	1					100	Act 2 (H) Equip A	13	Act 1 (H) Junk	18	Act 2 (H) Good	2	Act 2 (H) Bow A	6	Ammo	3														0
-Act 2 (H) Miss B	9	71	1					100	Act 2 (H) Equip B	13	Act 1 (H) Junk	18	Act 2 (H) Good	2	Act 2 (H) Bow B	6	Ammo	3														0
-Act 2 (H) Miss C	9	72	1					100	Act 2 (H) Equip B	13	Act 1 (H) Junk	18	Act 2 (H) Good	2	Act 2 (H) Bow B	6	Ammo	3														0
-Act 3 (H) Miss A	9	74	1					100	Act 3 (H) Equip A	13	Act 1 (H) Junk	18	Act 3 (H) Good	2	Act 3 (H) Bow A	6	Ammo	3														0
-Act 3 (H) Miss B	9	75	1					100	Act 3 (H) Equip B	13	Act 1 (H) Junk	18	Act 3 (H) Good	2	Act 3 (H) Bow B	6	Ammo	3														0
-Act 3 (H) Miss C	9	77	1					100	Act 3 (H) Equip B	13	Act 1 (H) Junk	18	Act 3 (H) Good	2	Act 3 (H) Bow B	6	Ammo	3														0
-Act 4 (H) Miss A	9	78	1					100	Act 4 (H) Equip A	13	Act 1 (H) Junk	18	Act 4 (H) Good	2	Act 4 (H) Bow A	6	Ammo	3														0
-Act 4 (H) Miss B	9	80	1					100	Act 4 (H) Equip B	13	Act 1 (H) Junk	18	Act 4 (H) Good	2	Act 4 (H) Bow B	6	Ammo	3														0
-Act 5 (H) Miss A	9	81	1					100	Act 5 (H) Equip A	13	Act 1 (H) Junk	18	Act 5 (H) Good	2	Act 5 (H) Bow A	6	Ammo	3														0
-Act 5 (H) Miss B	9	83	1					100	Act 5 (H) Equip B	13	Act 1 (H) Junk	18	Act 5 (H) Good	2	Act 5 (H) Bow B	6	Ammo	3														0
-Act 5 (H) Miss C	9	85	1					100	Act 5 (H) Equip C	13	Act 1 (H) Junk	18	Act 5 (H) Good	2	Act 5 (H) Bow B	6	Ammo	3														0
+Act 1 Miss A	9	0	1					100	Act 1 Equip A	13	Act 1 Junk	18	Act 1 Good	2	Act 1 Bow A	6	Ammo	1														0
+Act 1 Miss B	9	5	1					100	Act 1 Equip B	13	Act 1 Junk	18	Act 1 Good	2	Act 1 Bow B	6	Ammo	1														0
+Act 1 Miss C	9	9	1					100	Act 1 Equip C	13	Act 1 Junk	18	Act 1 Good	2	Act 1 Bow C	6	Ammo	1														0
+Act 2 Miss A	9	12	1					100	Act 2 Equip A	13	Act 2 Junk	18	Act 2 Good	2	Act 2 Bow A	6	Ammo	1														0
+Act 2 Miss B	9	15	1					100	Act 2 Equip B	13	Act 2 Junk	18	Act 2 Good	2	Act 2 Bow B	6	Ammo	1														0
+Act 2 Miss C	9	18	1					100	Act 2 Equip C	13	Act 2 Junk	18	Act 3 Good	2	Act 2 Bow C	6	Ammo	1														0
+Act 3 Miss A	9	20	1					100	Act 3 Equip A	13	Act 3 Junk	18	Act 3 Good	2	Act 3 Bow A	6	Ammo	1														0
+Act 3 Miss B	9	22	1					100	Act 3 Equip B	13	Act 3 Junk	18	Act 3 Good	2	Act 3 Bow B	6	Ammo	1														0
+Act 3 Miss C	9	24	1					100	Act 3 Equip C	13	Act 3 Junk	18	Act 3 Good	2	Act 3 Bow C	6	Ammo	1														0
+Act 4 Miss A	9	26	1					100	Act 4 Equip A	13	Act 4 Junk	18	Act 4 Good	2	Act 4 Bow A	6	Ammo	1														0
+Act 4 Miss B	9	29	1					100	Act 4 Equip B	13	Act 4 Junk	18	Act 4 Good	2	Act 4 Bow B	6	Ammo	1														0
+Act 5 Miss A	9	32	1					100	Act 5 Equip A	13	Act 5 Junk	18	Act 5 Good	2	Act 5 Bow A	6	Ammo	1														0
+Act 5 Miss B	9	34	1					100	Act 5 Equip B	13	Act 5 Junk	18	Act 5 Good	2	Act 5 Bow B	6	Ammo	1														0
+Act 5 Miss C	9	36	1					100	Act 5 Equip C	13	Act 5 Junk	18	Act 5 Good	2	Act 5 Bow B	6	Ammo	1														0
+Act 1 (N) Miss A	9	38	1					100	Act 1 (N) Equip A	13	Act 1 (N) Junk	18	Act 1 (N) Good	2	Act 1 (N) Bow A	6	Ammo	1														0
+Act 1 (N) Miss B	9	40	1					100	Act 1 (N) Equip B	13	Act 1 (N) Junk	18	Act 1 (N) Good	2	Act 1 (N) Bow B	6	Ammo	1														0
+Act 1 (N) Miss C	9	41	1					100	Act 1 (N) Equip B	13	Act 1 (N) Junk	18	Act 1 (N) Good	2	Act 1 (N) Bow B	6	Ammo	1														0
+Act 2 (N) Miss A	9	42	1					100	Act 2 (N) Equip A	13	Act 2 (N) Junk	18	Act 2 (N) Good	2	Act 2 (N) Bow A	6	Ammo	1														0
+Act 2 (N) Miss B	9	44	1					100	Act 2 (N) Equip B	13	Act 2 (N) Junk	18	Act 2 (N) Good	2	Act 2 (N) Bow B	6	Ammo	1														0
+Act 2 (N) Miss C	9	45	1					100	Act 2 (N) Equip B	13	Act 2 (N) Junk	18	Act 2 (N) Good	2	Act 2 (N) Bow B	6	Ammo	1														0
+Act 3 (N) Miss A	9	46	1					100	Act 3 (N) Equip A	13	Act 3 (N) Junk	18	Act 3 (N) Good	2	Act 3 (N) Bow A	6	Ammo	1														0
+Act 3 (N) Miss B	9	48	1					100	Act 3 (N) Equip B	13	Act 3 (N) Junk	18	Act 3 (N) Good	2	Act 3 (N) Bow B	6	Ammo	1														0
+Act 3 (N) Miss C	9	50	1					100	Act 3 (N) Equip B	13	Act 3 (N) Junk	18	Act 3 (N) Good	2	Act 3 (N) Bow B	6	Ammo	1														0
+Act 4 (N) Miss A	9	51	1					100	Act 4 (N) Equip A	13	Act 4 (N) Junk	18	Act 4 (N) Good	2	Act 4 (N) Bow A	6	Ammo	1														0
+Act 4 (N) Miss B	9	54	1					100	Act 4 (N) Equip B	13	Act 4 (N) Junk	18	Act 4 (N) Good	2	Act 4 (N) Bow B	6	Ammo	1														0
+Act 5 (N) Miss A	9	57	1					100	Act 5 (N) Equip A	13	Act 5 (N) Junk	18	Act 5 (N) Good	2	Act 5 (N) Bow A	6	Ammo	1														0
+Act 5 (N) Miss B	9	60	1					100	Act 5 (N) Equip B	13	Act 5 (N) Junk	18	Act 5 (N) Good	2	Act 5 (N) Bow B	6	Ammo	1														0
+Act 5 (N) Miss C	9	62	1					100	Act 5 (N) Equip C	13	Act 5 (N) Junk	18	Act 5 (N) Good	2	Act 5 (N) Bow B	6	Ammo	1														0
+Act 1 (H) Miss A	9	63	1					100	Act 1 (H) Equip A	13	Act 1 (H) Junk	18	Act 1 (H) Good	2	Act 1 (H) Bow A	6	Ammo	1														0
+Act 1 (H) Miss B	9	66	1					100	Act 1 (H) Equip B	13	Act 1 (H) Junk	18	Act 1 (H) Good	2	Act 1 (H) Bow B	6	Ammo	1														0
+Act 1 (H) Miss C	9	68	1					100	Act 1 (H) Equip B	13	Act 1 (H) Junk	18	Act 1 (H) Good	2	Act 1 (H) Bow B	6	Ammo	1														0
+Act 2 (H) Miss A	9	69	1					100	Act 2 (H) Equip A	13	Act 1 (H) Junk	18	Act 2 (H) Good	2	Act 2 (H) Bow A	6	Ammo	1														0
+Act 2 (H) Miss B	9	71	1					100	Act 2 (H) Equip B	13	Act 1 (H) Junk	18	Act 2 (H) Good	2	Act 2 (H) Bow B	6	Ammo	1														0
+Act 2 (H) Miss C	9	72	1					100	Act 2 (H) Equip B	13	Act 1 (H) Junk	18	Act 2 (H) Good	2	Act 2 (H) Bow B	6	Ammo	1														0
+Act 3 (H) Miss A	9	74	1					100	Act 3 (H) Equip A	13	Act 1 (H) Junk	18	Act 3 (H) Good	2	Act 3 (H) Bow A	6	Ammo	1														0
+Act 3 (H) Miss B	9	75	1					100	Act 3 (H) Equip B	13	Act 1 (H) Junk	18	Act 3 (H) Good	2	Act 3 (H) Bow B	6	Ammo	1														0
+Act 3 (H) Miss C	9	77	1					100	Act 3 (H) Equip B	13	Act 1 (H) Junk	18	Act 3 (H) Good	2	Act 3 (H) Bow B	6	Ammo	1														0
+Act 4 (H) Miss A	9	78	1					100	Act 4 (H) Equip A	13	Act 1 (H) Junk	18	Act 4 (H) Good	2	Act 4 (H) Bow A	6	Ammo	1														0
+Act 4 (H) Miss B	9	80	1					100	Act 4 (H) Equip B	13	Act 1 (H) Junk	18	Act 4 (H) Good	2	Act 4 (H) Bow B	6	Ammo	1														0
+Act 5 (H) Miss A	9	81	1					100	Act 5 (H) Equip A	13	Act 1 (H) Junk	18	Act 5 (H) Good	2	Act 5 (H) Bow A	6	Ammo	1														0
+Act 5 (H) Miss B	9	83	1					100	Act 5 (H) Equip B	13	Act 1 (H) Junk	18	Act 5 (H) Good	2	Act 5 (H) Bow B	6	Ammo	1														0
+Act 5 (H) Miss C	9	85	1					100	Act 5 (H) Equip C	13	Act 1 (H) Junk	18	Act 5 (H) Good	2	Act 5 (H) Bow B	6	Ammo	1														0
 Act 1 Wraith A	10	0	1					75	Act 1 Good	4	Act 1 Magic A	25																				0
 Act 1 Wraith B	10	5	1					75	Act 1 Good	4	Act 1 Magic B	25																				0
 Act 1 Wraith C	10	9	1					75	Act 1 Good	4	Act 1 Magic C	25																				0
@@ -584,34 +586,34 @@ Act 4 Uitem B	14	29	1	800	800	800	1024	0	Act 4 Equip B	58	Act 4 Good	4										
 Act 5 Uitem A	14	32	1	800	800	800	1024	0	Act 5 Equip A	58	Act 5 Good	4																				0
 Act 5 Uitem B	14	34	1	800	800	800	1024	0	Act 5 Equip B	58	Act 5 Good	4																				0
 Act 5 Uitem C	14	36	1	800	800	800	1024	0	Act 5 Equip C	58	Act 5 Good	4																				0
-Act 1 (N) Uitem A	14	38	1	800	800	800	1024	0	Act 1 (N) Equip A	58	Act 1 (N) Good	4																				0
-Act 1 (N) Uitem B	14	40	1	800	800	800	1024	0	Act 1 (N) Equip B	58	Act 1 (N) Good	4																				0
-Act 1 (N) Uitem C	14	41	1	800	800	800	1024	0	Act 1 (N) Equip B	58	Act 1 (N) Good	4																				0
-Act 2 (N) Uitem A	14	42	1	800	800	800	1024	0	Act 2 (N) Equip A	58	Act 2 (N) Good	4																				0
-Act 2 (N) Uitem B	14	44	1	800	800	800	1024	0	Act 2 (N) Equip B	58	Act 2 (N) Good	4																				0
-Act 2 (N) Uitem C	14	45	1	800	800	800	1024	0	Act 2 (N) Equip B	58	Act 2 (N) Good	4																				0
-Act 3 (N) Uitem A	14	46	1	800	800	800	1024	0	Act 3 (N) Equip A	58	Act 3 (N) Good	4																				0
-Act 3 (N) Uitem B	14	48	1	800	800	800	1024	0	Act 3 (N) Equip B	58	Act 3 (N) Good	4																				0
-Act 3 (N) Uitem C	14	50	1	800	800	800	1024	0	Act 3 (N) Equip B	58	Act 3 (N) Good	4																				0
-Act 4 (N) Uitem A	14	51	1	800	800	800	1024	0	Act 4 (N) Equip A	58	Act 4 (N) Good	4																				0
-Act 4 (N) Uitem B	14	54	1	800	800	800	1024	0	Act 4 (N) Equip B	58	Act 4 (N) Good	4																				0
-Act 5 (N) Uitem A	14	57	1	800	800	800	1024	0	Act 5 (N) Equip A	58	Act 5 (N) Good	4																				0
-Act 5 (N) Uitem B	14	60	1	800	800	800	1024	0	Act 5 (N) Equip B	58	Act 5 (N) Good	4																				0
-Act 5 (N) Uitem C	14	62	1	800	800	800	1024	0	Act 5 (N) Equip C	58	Act 5 (N) Good	4																				0
-Act 1 (H) Uitem A	14	63	1	800	800	800	1024	0	Act 1 (H) Equip A	58	Act 1 (H) Good	4																				0
-Act 1 (H) Uitem B	14	66	1	800	800	800	1024	0	Act 1 (H) Equip B	58	Act 1 (H) Good	4																				0
-Act 1 (H) Uitem C	14	68	1	800	800	800	1024	0	Act 1 (H) Equip B	58	Act 1 (H) Good	4																				0
-Act 2 (H) Uitem A	14	69	1	800	800	800	1024	0	Act 2 (H) Equip A	58	Act 2 (H) Good	4																				0
-Act 2 (H) Uitem B	14	71	1	800	800	800	1024	0	Act 2 (H) Equip B	58	Act 2 (H) Good	4																				0
-Act 2 (H) Uitem C	14	72	1	800	800	800	1024	0	Act 2 (H) Equip B	58	Act 2 (H) Good	4																				0
-Act 3 (H) Uitem A	14	74	1	800	800	800	1024	0	Act 3 (H) Equip A	58	Act 3 (H) Good	4																				0
-Act 3 (H) Uitem B	14	75	1	800	800	800	1024	0	Act 3 (H) Equip B	58	Act 3 (H) Good	4																				0
-Act 3 (H) Uitem C	14	77	1	800	800	800	1024	0	Act 3 (H) Equip B	58	Act 3 (H) Good	4																				0
-Act 4 (H) Uitem A	14	78	1	800	800	800	1024	0	Act 4 (H) Equip A	58	Act 4 (H) Good	4																				0
-Act 4 (H) Uitem B	14	80	1	800	800	800	1024	0	Act 4 (H) Equip B	58	Act 4 (H) Good	4																				0
-Act 5 (H) Uitem A	14	81	1	800	800	800	1024	0	Act 5 (H) Equip A	58	Act 5 (H) Good	4																				0
-Act 5 (H) Uitem B	14	83	1	800	800	800	1024	0	Act 5 (H) Equip B	58	Act 5 (H) Good	4																				0
-Act 5 (H) Uitem C	14	85	1	800	800	800	1024	0	Act 5 (H) Equip C	58	Act 5 (H) Good	4																				0
+Act 1 (N) Uitem A	14	38	1	800	800	800	1024	0	Act 1 (N) Equip A	58	Act 1 (N) Good	4	Empty Bottle	1																		0
+Act 1 (N) Uitem B	14	40	1	800	800	800	1024	0	Act 1 (N) Equip B	58	Act 1 (N) Good	4	Empty Bottle	1																		0
+Act 1 (N) Uitem C	14	41	1	800	800	800	1024	0	Act 1 (N) Equip B	58	Act 1 (N) Good	4	Empty Bottle	1																		0
+Act 2 (N) Uitem A	14	42	1	800	800	800	1024	0	Act 2 (N) Equip A	58	Act 2 (N) Good	4	Empty Bottle	1																		0
+Act 2 (N) Uitem B	14	44	1	800	800	800	1024	0	Act 2 (N) Equip B	58	Act 2 (N) Good	4	Empty Bottle	1																		0
+Act 2 (N) Uitem C	14	45	1	800	800	800	1024	0	Act 2 (N) Equip B	58	Act 2 (N) Good	4	Empty Bottle	1																		0
+Act 3 (N) Uitem A	14	46	1	800	800	800	1024	0	Act 3 (N) Equip A	58	Act 3 (N) Good	4	Empty Bottle	1																		0
+Act 3 (N) Uitem B	14	48	1	800	800	800	1024	0	Act 3 (N) Equip B	58	Act 3 (N) Good	4	Empty Bottle	1																		0
+Act 3 (N) Uitem C	14	50	1	800	800	800	1024	0	Act 3 (N) Equip B	58	Act 3 (N) Good	4	Empty Bottle	1																		0
+Act 4 (N) Uitem A	14	51	1	800	800	800	1024	0	Act 4 (N) Equip A	58	Act 4 (N) Good	4	Empty Bottle	1																		0
+Act 4 (N) Uitem B	14	54	1	800	800	800	1024	0	Act 4 (N) Equip B	58	Act 4 (N) Good	4	Empty Bottle	1																		0
+Act 5 (N) Uitem A	14	57	1	800	800	800	1024	0	Act 5 (N) Equip A	58	Act 5 (N) Good	4	Empty Bottle	1																		0
+Act 5 (N) Uitem B	14	60	1	800	800	800	1024	0	Act 5 (N) Equip B	58	Act 5 (N) Good	4	Empty Bottle	1																		0
+Act 5 (N) Uitem C	14	62	1	800	800	800	1024	0	Act 5 (N) Equip C	58	Act 5 (N) Good	4	Empty Bottle	1																		0
+Act 1 (H) Uitem A	14	63	1	800	800	800	1024	0	Act 1 (H) Equip A	58	Act 1 (H) Good	4	Empty Bottle	1																		0
+Act 1 (H) Uitem B	14	66	1	800	800	800	1024	0	Act 1 (H) Equip B	58	Act 1 (H) Good	4	Empty Bottle	1																		0
+Act 1 (H) Uitem C	14	68	1	800	800	800	1024	0	Act 1 (H) Equip B	58	Act 1 (H) Good	4	Empty Bottle	1																		0
+Act 2 (H) Uitem A	14	69	1	800	800	800	1024	0	Act 2 (H) Equip A	58	Act 2 (H) Good	4	Empty Bottle	1																		0
+Act 2 (H) Uitem B	14	71	1	800	800	800	1024	0	Act 2 (H) Equip B	58	Act 2 (H) Good	4	Empty Bottle	1																		0
+Act 2 (H) Uitem C	14	72	1	800	800	800	1024	0	Act 2 (H) Equip B	58	Act 2 (H) Good	4	Empty Bottle	1																		0
+Act 3 (H) Uitem A	14	74	1	800	800	800	1024	0	Act 3 (H) Equip A	58	Act 3 (H) Good	4	Empty Bottle	1																		0
+Act 3 (H) Uitem B	14	75	1	800	800	800	1024	0	Act 3 (H) Equip B	58	Act 3 (H) Good	4	Empty Bottle	1																		0
+Act 3 (H) Uitem C	14	77	1	800	800	800	1024	0	Act 3 (H) Equip B	58	Act 3 (H) Good	4	Empty Bottle	1																		0
+Act 4 (H) Uitem A	14	78	1	800	800	800	1024	0	Act 4 (H) Equip A	58	Act 4 (H) Good	4	Empty Bottle	1																		0
+Act 4 (H) Uitem B	14	80	1	800	800	800	1024	0	Act 4 (H) Equip B	58	Act 4 (H) Good	4	Empty Bottle	1																		0
+Act 5 (H) Uitem A	14	81	1	800	800	800	1024	0	Act 5 (H) Equip A	58	Act 5 (H) Good	4	Empty Bottle	1																		0
+Act 5 (H) Uitem B	14	83	1	800	800	800	1024	0	Act 5 (H) Equip B	58	Act 5 (H) Good	4	Empty Bottle	1																		0
+Act 5 (H) Uitem C	14	85	1	800	800	800	1024	0	Act 5 (H) Equip C	58	Act 5 (H) Good	4	Empty Bottle	1																		0
 Act 1 Unique A	15	0	-3					0	Act 1 Uitem A	1	Act 1 Cpot A	2																				0
 Act 1 Unique B	15	5	-3					0	Act 1 Uitem B	1	Act 1 Cpot B	2																				0
 Act 1 Unique C	15	9	-3					0	Act 1 Uitem C	1	Act 1 Cpot C	2																				0
@@ -732,9 +734,9 @@ Diabloq (H)			-6	993	993	1024	1024	0	Act 5 (H) Equip A	1	Act 5 (H) Good	3	Ess3	1
 Summoner			-5	900	900	972	1024	0	Act 2 Equip C	1	Act 3 Junk	1	Act 2 Good	1	Act 3 Magic A	1	SU Rare A2	1														0
 Summoner (N)			-5	900	900	972	1024	0	Act 2 (N) Equip C	1	Act 3 (N) Junk	1	Act 2 (N) Good	1	Act 3 (N) Magic A	1	SU Rare (N) A2	1														0
 Summoner (H)			-6	900	900	972	1024	0	Act 2 (H) Equip C	1	Act 3 (H) Junk	1	Act 2 (H) Good	1	Act 3 (H) Magic A	1	Pandemonium Key B	1	SU Rare (H) A2	1												0
-Council			-4	650	800	800	1024	0	Act 4 Equip A	1	Act 4 Junk	1	Act 4 Good	1	Act 4 Magic A	1																0
-Council (N)			-4	650	800	800	1024	0	Act 4 (N) Equip A	1	Act 4 (N) Junk	1	Act 4 (N) Good	1	Act 4 (N) Magic A	1																0
-Council (H)			-4	650	800	800	1024	0	Act 4 (H) Equip A	1	Act 4 (H) Junk	1	Act 4 (H) Good	1	Act 4 (H) Magic A	1																0
+Council			-5	650	800	800	1024	0	Act 4 Equip A	1	Act 4 Junk	1	Act 4 Good	1	Act 4 Magic A	1																0
+Council (N)			-5	650	800	800	1024	0	Act 4 (N) Equip A	1	Act 4 (N) Junk	1	Act 4 (N) Good	1	Act 4 (N) Magic A	1																0
+Council (H)			-5	650	800	800	1024	0	Act 4 (H) Equip A	1	Act 4 (H) Junk	1	Act 4 (H) Good	1	Act 4 (H) Magic A	1																0
 Griswold-Uniq			1	1024				16	Griswolds Edge	1																						0
 Griswold-Set (N)			1		1024			48	Griswold's Heart	1	Griswold's Honor	1																				0
 Griswold-Set (H)			1		1024			96	Griswold's Valor	1	Griswolds's Redemption	1	Griswold's Heart	1	Griswold's Honor	1																0
@@ -946,24 +948,24 @@ Ventar (H)		85	-4	800	800	1024	600	0	Act 5 (H) Citem C	2	Act 5 (H) Cpot C	1	SU R
 Lister		36	-3	800	800	1024	600	0	Act 5 Citem C	1	Act 5 Cpot C	1	SU Rare A5	1																		0
 Lister (N)		62	-3	800	800	1024	600	0	Act 5 Citem C	2	SU Rare (N) A5	1																				0
 Lister (H)		85	-3	800	800	1024	600	0	Act 5 (N) Citem C	2	SU Rare (H) A5	1																				0
-Ismail			-4	650	800	800	1024	0	Act 5 (H) Citem C	1	Act 4 Good	1	Act 4 Magic A	1	SU Rare A3	1																0
-Ismail (N)			-4	650	800	800	1024	0	Act 4 (N) Equip A	1	Act 4 (N) Good	1	Act 4 (N) Magic A	1	SU Rare (N) A3	1																0
-Ismail (H)			-4	650	800	800	1024	0	Act 4 (H) Equip A	1	Act 4 (H) Good	1	Act 4 (H) Magic A	1	SU Rare (H) A3	1																0
+Ismail			-5	650	800	800	1024	0	Act 5 (H) Citem C	1	Act 4 Good	1	Act 4 Magic A	1	SU Rare A3	1																0
+Ismail (N)			-5	650	800	800	1024	0	Act 4 (N) Equip A	1	Act 4 (N) Good	1	Act 4 (N) Magic A	1	SU Rare (N) A3	1																0
+Ismail (H)			-5	650	800	800	1024	0	Act 4 (H) Equip A	1	Act 4 (H) Good	1	Act 4 (H) Magic A	1	SU Rare (H) A3	1																0
 Bremm			-4	650	800	800	1024	0	Act 4 Equip A	1	Act 4 Good	1	Act 4 Magic A	1	SU Rare A3	1																0
 Bremm (N)			-4	650	800	800	1024	0	Act 4 (N) Equip A	1	Act 4 (N) Good	1	Act 4 (N) Magic A	1	SU Rare (N) A3	1																0
 Bremm (H)			-4	650	800	800	1024	0	Act 4 (H) Equip A	1	Act 4 (H) Good	1	Act 4 (H) Magic A	1	SU Rare (H) A3	1																0
-Toorc			-4	650	800	800	1024	0	Act 4 Equip A	1	Act 4 Good	1	Act 4 Magic A	1	SU Rare A3	1																0
-Toorc (N)			-4	650	800	800	1024	0	Act 4 (N) Equip A	1	Act 4 (N) Good	1	Act 4 (N) Magic A	1	SU Rare (N) A3	1																0
-Toorc (H)			-4	650	800	800	1024	0	Act 4 (H) Equip A	1	Act 4 (H) Good	1	Act 4 (H) Magic A	1	SU Rare (H) A3	1																0
+Toorc			-5	650	800	800	1024	0	Act 4 Equip A	1	Act 4 Good	1	Act 4 Magic A	1	SU Rare A3	1																0
+Toorc (N)			-5	650	800	800	1024	0	Act 4 (N) Equip A	1	Act 4 (N) Good	1	Act 4 (N) Magic A	1	SU Rare (N) A3	1																0
+Toorc (H)			-5	650	800	800	1024	0	Act 4 (H) Equip A	1	Act 4 (H) Good	1	Act 4 (H) Magic A	1	SU Rare (H) A3	1																0
 Wyand			-4	650	800	800	1024	0	Act 4 Equip A	1	Act 4 Good	1	Act 4 Magic A	1	SU Rare A3	1																0
 Wyand (N)			-4	650	800	800	1024	0	Act 4 (N) Equip A	1	Act 4 (N) Good	1	Act 4 (N) Magic A	1	SU Rare (N) A3	1																0
 Wyand (H)			-4	650	800	800	1024	0	Act 4 (H) Equip A	1	Act 4 (H) Good	1	Act 4 (H) Magic A	1	SU Rare (H) A3	1																0
 Maffer			-4	650	800	800	1024	0	Act 4 Equip A	1	Act 4 Good	1	Act 4 Magic A	1	SU Rare A3	1																0
 Maffer (N)			-4	650	800	800	1024	0	Act 4 (N) Equip A	1	Act 4 (N) Good	1	Act 4 (N) Magic A	1	SU Rare (N) A3	1																0
 Maffer (H)			-4	650	800	800	1024	0	Act 4 (H) Equip A	1	Act 4 (H) Good	1	Act 4 (H) Magic A	1	SU Rare (H) A3	1																0
-Geleb			-4	650	800	800	1024	0	Act 4 Equip A	1	Act 4 Good	1	Act 4 Magic A	1	SU Rare A3	1																0
-Geleb (N)			-4	650	800	800	1024	0	Act 4 (N) Equip A	1	Act 4 (N) Good	1	Act 4 (N) Magic A	1	SU Rare (N) A3	1																0
-Geleb (H)			-4	650	800	800	1024	0	Act 4 (H) Equip A	1	Act 4 (H) Good	1	Act 4 (H) Magic A	1	SU Rare (H) A3	1																0
+Geleb			-5	650	800	800	1024	0	Act 4 Equip A	1	Act 4 Good	1	Act 4 Magic A	1	SU Rare A3	1	Empty Bottle	1														0
+Geleb (N)			-5	650	800	800	1024	0	Act 4 (N) Equip A	1	Act 4 (N) Good	1	Act 4 (N) Magic A	1	SU Rare (N) A3	1	Empty Bottle	1														0
+Geleb (H)			-5	650	800	800	1024	0	Act 4 (H) Equip A	1	Act 4 (H) Good	1	Act 4 (H) Magic A	1	SU Rare (H) A3	1	Empty Bottle	1														0
 Hephasto			-3	800	800	900	1024	0	Act 5 Equip A	1	Act 5 Good	1	SU Rare A4	1																		0
 Hephasto (N)			-4	800	800	900	1024	0	Act 5 (N) Equip A	1	Act 5 (N) Junk	1	Act 5 (N) Good	1	SU Rare (N) A4	1																0
 Hephasto (H)			-5	800	800	900	1024	0	Act 5 (H) Equip A	2	Act 5 (H) Junk	1	Act 5 (H) Good	1	SU Rare (H) A4	1																0
