@@ -4845,6 +4845,23 @@
     "zhCN": "戒指"
   },
   {
+    "id": 2215,
+    "Key": "gld",
+    "enUS": "Gold",
+    "zhTW": "金幣",
+    "deDE": "Gold",
+    "esES": "de oro",
+    "frFR": "or",
+    "itIT": "oro",
+    "koKR": "금화",
+    "plPL": "szt. złota",
+    "esMX": "Oro",
+    "jaJP": "ゴールド",
+    "ptBR": "Ouro",
+    "ruRU": "золотых",
+    "zhCN": "金币"
+  },
+  {
     "id": 2216,
     "Key": "bks",
     "enUS": "Scroll of Inifuss",
