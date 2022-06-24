@@ -1623,7 +1623,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "text": "(Orbs)",
+                                        "text": "(Helms)",
                                         "style": "$StyleSettingsRightTitle",
                                     },
                                 },
@@ -1635,7 +1635,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "Tir + Ral:",
+                                        "text": "Nef + Pul + Vex:",
                                         "style": "$RecipeSettingsCenterText",
                                     },
                                     "children": [
@@ -1659,7 +1659,7 @@
                                         "disabledFrame": 2,
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
-										"states": [ "+1-2 to Fire Skills", "+1-198 Mana (cLvl)", "15% Cold Resistance", "+3 Warmth (Sor)", "+3 Firestorm", "10% Faster Cast Rate" ],
+										"states": [ "Lvl 4-8 Fire Resist Aura", "+3 Fire Skills", "-10% to -15% Enemy Resistances", "30% Enhanced Defense", "+30 Defense vs Missile", "+50-75 Mana", "Half Freeze Duration", "+5% to Maximum Resists", "Poison Length Reduced by 50%" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$SmallMediumFontSize" },
