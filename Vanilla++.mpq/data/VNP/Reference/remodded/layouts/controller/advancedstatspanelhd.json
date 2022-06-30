@@ -9,8 +9,8 @@
         {
             "type": "ImageWidget", "name": "Background",
             "fields": {
-                "filename": "Blank",
-                "rect": { "x": 12, "y": -346 },
+                "rect": { "x": 120, "y": 445 },
+                "filename": "..\\..\\..\\VNP\\AdvText"
             }
         },
         {
@@ -22,14 +22,14 @@
         {
             "type": "ImageWidget", "name": "ScrollBackground",
             "fields": {
-                "rect": {"x": 2683, "y": 7},
+                "rect": {"x": 1158, "y": 447},
                 "filename": "Blank"
             }
         },
         {
             "type": "ScrollControllerWidget", "name": "ScrollBar",
             "fields": { 
-                "rect": { "x": 2682, "y": 17, "width": 36, "height": 954 },
+                "rect": { "x": 1177, "y": 442, "width": 36, "height": 704 },
                 "upArrowFilepath": "",
                 "downArrowFilepath": "",
                 "barFilepath": "..\\..\\..\\VNP\\SkullScroll",
@@ -41,7 +41,7 @@
         {
             "type": "ListWidget", "name": "ListContainer",
             "fields": {
-                "rect": { "x": 878, "y": 407, "width": 976, "height": 740},
+                "rect": { "x": 198, "y": 432, "width": 976, "height": 740},
                 "direction": "vertical",
                 "scrollControllerName": "ScrollBar",
             },

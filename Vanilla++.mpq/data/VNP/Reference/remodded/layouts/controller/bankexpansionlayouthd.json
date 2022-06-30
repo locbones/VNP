@@ -1,6 +1,10 @@
 {
     "basedOn": "Controller/BankOriginalLayoutHD.json",
     "type": "BankPanel", "name": "BankExpansionLayout",
+    "fields": {
+        "rect": "$ConsoleCharLeftPanelRect",
+        "defaultWidget": "grid",
+    },
     "children": [
         {
             "type": "ClickCatcherWidget", "name": "click_catcher",
@@ -44,18 +48,18 @@
             "type": "TabBarWidget", "name": "BankTabs",
             "fields": {
                 "rect": { "x": -250, "y": -140 },
-                "tabCount": 6,
-                "filename": "Controller/Panel/Stash/V2/StashTabs",
-                "inactiveFrames": [ 1, 1, 1, 1, 1, 1 ],
-                "activeFrames": [ 0, 0, 0, 0, 0, 0 ],
-                "disabledFrames": [-1, 1, 1, 1, 1, 1 ],
-                "textStrings": [ "@personal", "@shared", "@shared", "@shared", "Plz Blizzard", "Plz Blizzard" ],
+                "tabCount": 8,
+                "filename": "..\\..\\..\\VNP\\Stash_Tabs7",
+                "inactiveFrames": [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+                "activeFrames": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "disabledFrames": [-1, 1, 1, 1, 1, 1, 1, 1 ],
+                "textStrings": [ "@personal", "@shared", "@shared", "@shared", "@shared", "@shared", "@shared", "@shared" ],
                 "textStyle": { "pointSize": "$MediumFontSize" },
                 "focusIndicatorFilename": "Controller/HoverImages/StashTab_Hover",
                 "focusIndicatorOffset": { "x": 0, "y": -6 },
                 "activeTextColor": "$TabsActiveTextColor",
                 "inactiveTextColor": "$TabsInactiveTextColor",
-                "tabSize": { "x": 259, "y": 120 },
+                "tabSize": { "x": 195, "y": 120 },
                 "tabPadding": "$PanelTabPadding",
                 "onSwitchTabMessage": "BankPanelMessage:SelectTab",
                 "tabLeftIndicatorPosition": "$HalfPanelLeftTabButtonPromptPosition",

@@ -11,7 +11,7 @@
         {
             "type": "TabBarWidget", "name": "Tabs",
             "fields": {
-                "filename": "Controller/Panel/Waypoints/V2/WaypointsTab",
+                "filename": "Controller/Panel/Waypoints/V2/WaypointsTab2",
                 "tabSize": { "x": 315, "y": 121 },
                 "tabCount": 5,
                 "inactiveFrames": [ 1, 1, 1, 1, 1 ],

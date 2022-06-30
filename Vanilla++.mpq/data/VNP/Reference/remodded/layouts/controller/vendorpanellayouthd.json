@@ -17,14 +17,14 @@
             "type": "ImageWidget", "name": "background",
             "fields": {
                 "rect": { "x": -2, "y": 100 },
-                "filename": "Controller/Panel/Vendor/V2/VendorShop_BG",
+                "filename": "..\\..\\..\\VNP\\Controller\\VendorShop_BG",
             },
         },
         {
             "type": "ImageWidget", "name": "background_repair",
             "fields": {
                 "rect": { "x": -2, "y": 100 },
-                "filename": "Controller/Panel/Vendor/V2/VendorForge_BG",
+                "filename": "..\\..\\..\\VNP\\Controller\\VendorShop_BG",
             },
         },
         {

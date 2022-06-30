@@ -18,7 +18,7 @@
             "type": "ImageWidget", "name": "Background",
             "fields": {
                 "rect": { "x": 7, "y": 4 },
-                "filename": "Controller/Panel/Waypoints/V2/WaypointsBG",
+                "filename": "..\\..\\..\\VNP\\Controller\\Waypoint_BG",
             }
         },
         {
@@ -42,7 +42,7 @@
                     "type": "ButtonWidget", "name": "UnselectableButtonTemplate",
                     "fields": {
                         "rect": { "x": 27, "y": 132 },
-                        "filename": "Controller/Panel/Waypoints/V2/WaypointUnselectable",
+                        "filename": "..\\..\\..\\VNP\\Controller\\Controller_WP_Btn3",
                         "focusIndicatorFilename": "Controller/HoverImages/WaypointItem_Hover",
                         "pointSize": "$LargeFontSize",
                         "text/rect": {"x": 160}
@@ -51,13 +51,13 @@
                 {
                     "type": "ImageWidget", "name": "SelectableButton",
                     "fields": {
-                        "filename": "Controller/Panel/Waypoints/V2/WaypointSelectable",
+                        "filename": "..\\..\\..\\VNP\\Controller\\Controller_WP_Btn2",
                     }
                 },
                 {
                     "type": "ImageWidget", "name": "CurrentButton",
                     "fields": {
-                        "filename": "Controller/Panel/Waypoints/V2/WaypointCurrent",
+                        "filename": "..\\..\\..\\VNP\\Controller\\Controller_WP_Btn",
                     }
                 }
             ]

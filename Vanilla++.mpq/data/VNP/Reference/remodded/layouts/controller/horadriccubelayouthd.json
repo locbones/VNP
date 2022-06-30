@@ -22,8 +22,36 @@
         {
             "type": "ButtonWidget", "name": "convert",
             "fields": {
-                "rect": { "x": 1050, "y": 1320 },
+                "rect": { "x": 1450, "y": 1320 },
                 "filename": "PANEL\\Horadric_Cube\\TransmuteButton",
+                "hoveredFrame": 2,
+                "focusIndicatorFilename": "Controller/HoverImages/Transmute_Hover",
+                "focusIndicatorOffset": { "x": 0, "y": 0 },
+                "navigation": {
+                    "right": { "panelBoundary": true },
+                    "up": { "name": "grid" },
+                },
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "Recipes",
+            "fields": {
+                "rect": { "x": 85, "y": 1320 },
+                "filename": "..\\..\\..\\VNP\\Recipes",
+                "hoveredFrame": 2,
+                "focusIndicatorFilename": "Controller/HoverImages/Transmute_Hover",
+                "focusIndicatorOffset": { "x": 0, "y": 0 },
+                "navigation": {
+                    "right": { "panelBoundary": true },
+                    "up": { "name": "grid" },
+                },
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "Shop",
+            "fields": {
+                "rect": { "x": 765, "y": 1320 },
+                "filename": "..\\..\\..\\VNP\\Shop\\Shop_Button",
                 "hoveredFrame": 2,
                 "focusIndicatorFilename": "Controller/HoverImages/Transmute_Hover",
                 "focusIndicatorOffset": { "x": 0, "y": 0 },
