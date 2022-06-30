@@ -37,14 +37,14 @@
 				{
 					"type": "ControllerCursorBoundsWidget", "name": "ControllerCursorBounds",
 					"fields": {
-						"rect": { "x": -300, "y": -100, "width": 3240, "height": 2060 },
+						"rect": { "x": -100, "y": 0, "width": 2880, "height": 1963 },
 					},
 				},
                 {
                     "type": "ImageWidget", "name": "Background",
                     "fields": {
-                        "rect": { "x": -325, "y": -90 },
-                        "filename": "Controller/Panel/MainPanelBG_Edit",
+                        "rect": { "x": 0, "y": 0 },
+                        "filename": "Blank",
                     },
                 },
                 {
@@ -72,7 +72,7 @@
                             "type": "ImageWidget", "name": "TabsEndcapLeft",
                             "fields": {
                                 "rect": { "x": 60, "y": 7 },
-                                "filename": "Controller/Panel/Top_Tabs_EndCap_Left",
+                                "filename": "Blank",
                             },
                         },
                         {
@@ -80,7 +80,7 @@
                             "fields": {
                                 "anchor": {"x":1.0, "y":0.0},
                                 "rect": { "x": -87, "y": 7 },
-                                "filename": "Controller/Panel/Top_Tabs_EndCap_Right",
+                                "filename": "Blank",
                             },
                         },
                         {
@@ -88,14 +88,14 @@
                             "fields": {
                                 "rect": { "x": 75, "y": 12, "width": 2730, "height": 90 },
                                 "tabCount": 8,
-                                "filename": [ "Controller/Panel/Controller_Top_Tab_7Tabs", "Controller/Panel/Controller_Top_Tab_6Tabs", "Controller/Panel/Controller_Top_Tab_5Tabs" ],
+                                "filename": [ "Blank", "Blank", "Blank" ],
                                 "inactiveFrames": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
                                 "activeFrames": [ 1, 1, 1, 1, 1, 1, 1, 1 ],
                                 "inactiveTextColor": "$FontColorLightGray",
                                 "activeTextColor": "$FontColorVeryLightGray",
                                 "focusIndicatorFilename": ["Controller/HoverImages/ControllerTopTabs_5", "Controller/HoverImages/ControllerTopTabs_6", "Controller/HoverImages/ControllerTopTabs_7"],
                                 "focusIndicatorOffset": { "x": 0, "y": -10 },
-                                "tabPadding": { "x": 0, "y": 0 },
+                                "tabPadding": { "x": 100, "y": 0 },
                                 "tabTextOffset": { "x": 0, "y": -9 },
                                 "textStyle": {
                                     "pointSize": "$MediumLargeFontSize",
@@ -109,7 +109,7 @@
                                 "notificationIconTemplate": {
                                     "rect": { "x": -65, "y": -18 },
                                     "anchor": { "x": 1, "y": 0 },
-                                    "filename": "Controller/Panel/TabNotificationIcon",
+                                    "filename": "Blank",
                                 },
                             }
                         }
@@ -118,7 +118,7 @@
                 {
                     "type": "ButtonLegendWidget", "name": "Legend",
                     "fields": {
-                        "rect": { "x": 0, "y": 1941, "width": 2880, "height": 103 },
+                        "rect": { "x": 0, "y": 2061, "width": 2880, "height": 103 },
                         "text": { "style": "$StyleButtonLegend" },
                     },
                 },
