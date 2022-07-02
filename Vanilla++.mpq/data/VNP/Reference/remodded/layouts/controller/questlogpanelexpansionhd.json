@@ -108,14 +108,7 @@
                 },
                 {
                     "type": "QuestLogButtonWidget", "name": "Quest20",
-                },
-                {
-                    "type": "ImageWidget",
-                    "fields": {
-                        "rect": { "x": 337, "y": 472 },
-                        "filename": "Controller/Panel/QuestLog/V2/QuestLog_PanelCover"
-                    },
-                },
+                }
             ]
         },
         {

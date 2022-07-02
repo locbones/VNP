@@ -1023,7 +1023,7 @@
                     "type": "FocusableWidget", "name": "Tooltip",
                     "fields": {
                         "fitToParent": true,
-                        "tooltipString": "@CharacterStatsTooltipStatPointsRemaining",
+                        "tooltipString": "Stat Points",
                         "tooltipStyle": "$TooltipStyle",
                         "tooltipStyle": {
                             "fontStyle": {
