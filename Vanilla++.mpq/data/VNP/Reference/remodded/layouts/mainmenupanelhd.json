@@ -228,7 +228,7 @@
                 "textString": "@PlayTab",
                 "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonLarge_Hover",
                 "focusIndicatorOffset": { "x": 0, "y": 0 },
-               // "onClickMessage": "MainMenuHD:Play",
+                "onClickMessage": "MainMenuHD:Play",
                // "text/style": "$StyleFEButtonText",
                 "pointSize": "$ExtraLargeFontSize",
                 "textColor": "$FontColorBonesyRed",
