@@ -47,7 +47,7 @@
                 {
                    "type": "ImageWidget", "name": "ResurrectedText",
                    "fields": {
-                        "rect": { "x": -159, "y": 473 },
+                        "rect": { "x": -239, "y": 473 },
                         "filename": "LogoAnimation/ResurrectedText",
                    }
                 },
