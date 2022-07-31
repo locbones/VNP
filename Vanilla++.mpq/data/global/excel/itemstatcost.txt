@@ -381,3 +381,4 @@ CD_Tracker	378			16											102	20	1024	10	10	11	10																											
 splash_multi	379		1	7	16						1			2	190	256		21	0	7	0	16										1	domeleedamage	20			998	19	0	SplashM	SplashM										0
 splash_nova	380		1	7	16						1			2	190	256		21	0	7	0	16										1	domeleedamage	20			998	19	0	SplashN	SplashN										0
 splash_spear	381		1	7	16						1			2	190	256		21	0	7	0	16										1	domeleedamage	20			998	19	0	SplashS	SplashS										0
+item_level	382			16											0	0	1024	10	10	11	10																														0

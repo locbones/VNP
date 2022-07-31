@@ -111,3 +111,4 @@ Remover	RMVR																										0							misc	0
 Converter	CNVT																										0							misc	0
 Bottle	BTTL																										0							misc	0
 Socket Puncher	PNCH																																		0
+Reroller	ROLL																																		0

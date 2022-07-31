@@ -290,3 +290,4 @@ CD-Tracker	1	17	CD_Tracker																															none	0
 splashm	1	11	splash_multi																											#% Chance to cast level # [Skill] on striking	Skill	"% Chance (If 0, then default to 5)"	Skill Level		0
 splashn	1	11	splash_nova																											#% Chance to cast level # [Skill] on striking	Skill	"% Chance (If 0, then default to 5)"	Skill Level		0
 splashs	1	11	splash_spear																											#% Chance to cast level # [Skill] on striking	Skill	"% Chance (If 0, then default to 5)"	Skill Level		0
+item-level	1	17	item_level																																0

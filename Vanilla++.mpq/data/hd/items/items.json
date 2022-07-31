@@ -717,5 +717,6 @@
   { "y57": { "asset": "..//custom//cd_green" } },
   { "y58": { "asset": "..//custom//cd_yellow" } },
   { "y59": { "asset": "..//custom//cd_purple" } },
-  { "y60": { "asset": "..//custom//socketpunch" } }
+  { "y60": { "asset": "..//custom//socketpunch" } },
+  { "y61": { "asset": "..//custom//reroller" } }
 ]

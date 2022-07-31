@@ -875,3 +875,9 @@ Add Socket - Armor 4	1			100	18	194	3		2	armo	y60						useitem				sock			4	4				
 Create Elzix Equalizer - Piercing	1			100	15	361	50		3	y01	Elzix's Equalizer	sppl					useitem				GB-Total			-50	-50																					Elzix's Equalizer				splashs		372	100	1																																																		0
 Create Elzix Equalizer - Cleaving	1			100	15	361	50		3	y01	Elzix's Equalizer	blde					useitem				GB-Total			-50	-50																					Elzix's Equalizer				splashm		370	100	1																																																		0
 Create Elzix Equalizer - Sweeping	1			100	15	361	50		3	y01	Elzix's Equalizer	hamm					useitem				GB-Total			-50	-50																					Elzix's Equalizer				splashn		371	100	1																																																		0
+Reroll - Prep Baal Skiller	1			100	15	382	91		1	cm3,mag							useitem				levelreq			100	100																					y61	91																																																									0
+Reroll - Baal Skiller	1			100	15	361	3		3	y01	y61	cm3,mag					useitem				GB-Total			-3	-3																					y61	91																												cm3,mag	91			levelreq			100	100																					0
+Reroll - Finalize Baal Skiller	1			100					2	cm3,mag	y61						useitem				levelreq			-100	-100																																																																															0
+Reroll - Prep Magic Jewel	1			100	15	382	34		1	jew,mag							useitem				levelreq			100	100																					y62	34																																																									0
+Reroll - Magic Jewel	1			100	15	361	3		3	y01	y62	jew,mag					useitem				GB-Total			-3	-3																					y62	34																												jew,mag	34			levelreq			100	100																					0
+Reroll - Finalize Magic Jewel	1			100					2	jew,mag	y62						useitem				levelreq			-100	-100																																																																															0
