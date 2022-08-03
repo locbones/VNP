@@ -14,7 +14,7 @@
             "type": "ImageWidget", "name": "Background",
             "fields": {
                 "rect": { "y": -205 },
-                "filename": "..\\..\\..\\VNP\\Hireling"
+                "filename": "..\\..\\..\\ReMoDDeD\\Hireling"
             },
         },
         {
@@ -97,9 +97,20 @@
         {
             "type": "InventorySlotWidget", "name": "slot_right_hand",
             "fields": {
-                "rect": { "x": 695, "y": 415, "width": 98, "height": 98 },
+                "rect": { "x": 697, "y": 415, "width": 98, "height": 98 },
                 "cellSize": "$ItemCellSize",
                 "location": "right_hand",
+                "gemSocketFilename": "PANEL\\gemsocket",
+                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Ring",
+                "isHireable": false,
+            }
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_left_hand",
+            "fields": {
+                "rect": { "x": 330, "y": 415, "width": 98, "height": 98 },
+                "cellSize": "$ItemCellSize",
+                "location": "left_hand",
                 "gemSocketFilename": "PANEL\\gemsocket",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Ring",
                 "isHireable": false,
@@ -463,7 +474,7 @@
             "type": "ButtonWidget", "name": "AdvancedStats",
             "fields": {
                 "rect": { "x": 505, "y": 670 },
-                "filename": "..\\..\\..\\VNP\\AdvBtn",
+                "filename": "..\\..\\..\\ReMoDDeD\\AdvBtn",
                 "hoveredFrame": 3,
                 "onClickMessage": "HirelingInventoryPanelMessage:ToggleAdvancedStats",
                 "pressLabelOffset": { "x": 0, "y": 2 },
@@ -476,7 +487,7 @@
             "type": "ButtonWidget", "name": "CloseButton",
             "fields": {
                 "rect": { "x": 1040, "y": -195 },
-                "filename": "..\\..\\..\\VNP\\Exit",
+                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
                 "hoveredFrame": 3,
                 "onClickMessage": "HirelingInventoryPanelMessage:Close",
                 "tooltipString": "@strClose",
