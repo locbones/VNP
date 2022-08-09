@@ -6,35 +6,39 @@
     "LeftPanelAnchor": { "x": 0.0, "y": 0.397 },
     "RightPanelAnchor": { "x": 1.0, "y": 0.397 },
     // In-game panel rects.
-    "LeftPanelRect": { "x": 236, "y": -851, "width": 1162, "height": 1707 },
-    "LeftPanelRectStats": { "x": 236, "y": -651, "width": 1162, "height": 1707 },
-    "RightPanelRect": { "x": -1414, "y": -851, "width": 1162, "height": 1707 },
-    "PanelClickCatcherRect": { "x": 0, "y": 0, "width": 1162, "height": 1507 },
-    "InGamePanelTitleRect" : { "x": 91, "y": 64, "width": 972, "height": 71 },
-    "AdvancedPanelRect": { "x": 1393, "y": -651, "width": 1162, "height": 1507 },
+    "LeftPanelRect": { "x": 0, "y": -651, "width": 1162, "height": 1487 },
+    "LeftPanelRectS": { "x": 0, "y": -856, "width": 1042, "height": 1387 },
+    "LeftPanelRectQ": { "x": -287, "y": -856, "width": 1042, "height": 1387 },
+    "LeftPanelRectHM": { "x": 521, "y": -861, "width": 1362, "height": 1707 },
+    "RightPanelRect": { "x": -1140, "y": -856, "width": 1562, "height": 1707 },
+    "RightPanelRectS": { "x": -1095, "y": -856, "width": 1562, "height": 1707 },
+    "PanelClickCatcherRect": { "x": 0, "y": -200, "width": 1662, "height": 1687 },
+    "PanelClickCatcherRectS": { "x": 0, "y": 0, "width": 1262, "height": 1427 },
+    "PanelClickCatcherRectC": { "x": 0, "y": 0, "width": 1362, "height": 1487 },
+    "PanelClickCatcherRectHM": { "x": 0, "y": -200, "width": 1362, "height": 1487 },
+    "InGamePanelTitleRect" : { "x": 93, "y": 64, "width": 972, "height": 71 },
+    "InGamePanelTitleRectQuest" : { "x": 378, "y": 34, "width": 972, "height": 71 },
 
-    //ModStart ExpandedStorageMod
-    //
-    //modcomment: New variables to allow changes for _profile_lv
-    //
-    "BankPanelRect" : { "x": 236, "y": 210, "width": 1750, "height": 1799 },
-    "BankPanelGoldAmountRect": { "x": 777, "y": 1596, "width": 249, "height": 48 },
-    "BankPanelGoldWithdrawRect": { "x": 717, "y": 1593 },
+    "LVSpriteBank": "..\\..\\..\\VNP\\Stash",
+    "LVSpriteInv": "..\\..\\..\\VNP\\Inventory",
+    "BankPanelGoldAmountRect": { "x": 717, "y": 1356, "width": 249, "height": 48 },
+    "BankPanelGoldWithdrawRect": { "x": 652, "y": 1355 },
 
-    "PlayerInventoryPanelRect" : { "x": -1394, "y": 0, "width": 1162, "height": 1737 },
-    "PlayerInventoryPanelGoldAmountRect": { "x": 544, "y": 1611, "width": 249, "height": 48 },
-    "PlayerInventoryPanelGoldButtonRect": { "x": 480, "y": 1613 },
+    "PlayerInventoryPanelGoldAmountRect": { "x": 484, "y": 1617, "width": 249, "height": 48 },
+    "PlayerInventoryPanelGoldButtonRect": { "x": 420, "y": 1618 },
 
     "HoradricCubePanelRect" : { "x": 236, "y": 210, "width": 1744, "height": 1737 },
-    "HoradricCubePanelConvert": { "x": 1445, "y": 1508 },
-    "HoradricCubePanelRecipe": { "x": 175, "y": 1508 },
-    //
-    //ModEnd ExpandedStorageMod
+    "HoradricCubePanelConvert": { "x": 1455, "y": 1318 },
+    "HoradricCubePanelRecipe": { "x": 125, "y": 1318 },
+
+    "AdvStatsText": { "x": 186, "y": 282 },
+    "ScrollLV": { "x": 0, "y": 205, "width": 810, "height": 2000 },
 
     "ScrollSpeechWidth": 700,
     "ScrollSpeechBorderWidth": 800,
     "ScrollSpeechOffset": -400, // This is negative and half of the width; Used as the horizontal offset.
-    "QuestLogScrollingSpeechParentRect": { "x": 198, "y": 1015, "width": 770, "height": 254 },
+    "QuestLogScrollingSpeechParentRect": { "x": 425, "y": 975, "width": 810, "height": 384 },
+
 
     // Lobby panel rects.
     "LobbyAnchor": {"x": 0.5},
@@ -108,7 +112,7 @@
     "MediumLargeFontSize": 32, // Usage: Front end button ribbon buttons (CAPS), front end character select tabs
     "XMediumFontSize": 28, // Usage:Secondary Action Center Buttons, Character list title and level text
     "MediumFontSize": 26, // Usage : Settings field text
-    "MediumSmallFontSize": 24, // Usage : Settings field text
+    "SmallMediumFontSize": 24,
     "SmallFontSize": 22,
     "TooltipFontSize": 36,
     "CinematicsFontSize": 32,
@@ -194,6 +198,13 @@
         "dropShadow": "$DefaultDropShadow",
         "spacing": "$MinimumSpacing",
     },
+    "StyleFEButtonTextR":
+    {
+        "fontColor": "$FontColorBonesyRed",
+        "pointSize": "$MediumLargeFontSize",
+        "dropShadow": "$DefaultDropShadow",
+        "spacing": "$MinimumSpacing",
+    },
     "StyleCinematicsButtonText":
     {
         "fontColor": "$LightButtonTextColor",
@@ -241,6 +252,21 @@
         "pointSize": "$XLargeFontSize",
         "alignment": { "h": "left", "v": "center" },
     },
+    "StyleSettingsCenterTitle": {
+        "fontColor": "$FontColorGoldYellow",
+        "pointSize": "$XLargeFontSize",
+        "alignment": { "h": "center", "v": "center" },
+    },
+    "StyleSettingsRightTitle": {
+        "fontColor": "$FontColorBonesyRed",
+        "pointSize": "$XMediumLargeFontSize",
+        "alignment": { "h": "center", "v": "center" },
+    },
+    "StyleSettingsTitleSkill": {
+        "fontColor": "$FontColorBonesyRed",
+        "pointSize": "$XLargeFontSize",
+        "alignment": { "h": "center", "v": "center" },
+    },
     "StyleSettingsSubtitle": {
         "fontColor": "$FontColorDarkGold",
         "pointSize": "$LargeFontSize",
@@ -248,16 +274,58 @@
     },
     "StyleSettingsText": {
         "fontColor": "$FontColorLightGold",
-        "pointSize": "$MediumFontSize",
+        "pointSize": "$MediumPanelFontSize",
         "spacing" : "$ReducedSpacing",
         "alignment": { "h": "left", "v": "center" },
         "options": { "lineWrap": true },
     },
-    "StyleSettingsTextR": {
-        "fontColor": "$FontColorRed",
-        "pointSize": "$XMediumFontSize",
+    "StyleSettingsTextT": {
+        "fontColor": "$FontColorLightGold",
+        "pointSize": "$MediumPanelFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "left", "v": "top" },
+        "options": { "lineWrap": true },
+    },
+    "StyleSettingsTextC": {
+        "fontColor": "$FontColorLightGold",
+        "pointSize": "$MediumPanelFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "center", "v": "center" },
+        "options": { "lineWrap": true },
+    },
+    "StyleSettingsTextCR": {
+        "fontColor": "$FontColorBonesyRed",
+        "pointSize": "$MediumPanelFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "center", "v": "center" },
+        "options": { "lineWrap": true },
+    },
+    "StyleSettingsTextCRT": {
+        "fontColor": "$FontColorBonesyRed",
+        "pointSize": "$MediumPanelFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "center", "v": "top" },
+        "options": { "lineWrap": false },
+    },
+    "StyleSettingsTextCRTG": {
+        "fontColor": "$FontColorGoldYellow",
+        "pointSize": "$MediumPanelFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "center", "v": "top" },
+        "options": { "lineWrap": false },
+    },
+    "StyleSettingsTextSkill": {
+        "fontColor": "$FontColorLightGold",
+        "pointSize": "$MediumPanelFontSize",
         "spacing" : "$ReducedSpacing",
         "alignment": { "h": "left", "v": "center" },
+        "options": { "lineWrap": true },
+    },
+    "StyleSettingsTextSkillC": {
+        "fontColor": "$FontColorLightGold",
+        "pointSize": "$MediumPanelFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "center", "v": "top" },
         "options": { "lineWrap": true },
     },
     "RecipeSettingsText": {
@@ -272,15 +340,50 @@
         "spacing" : "$ReducedSpacing",
         "alignment": { "h": "center", "v": "center" },
     },
-    "StyleSettingsCenterTitle": {
-        "fontColor": "$FontColorGoldYellow",
-        "pointSize": "$XLargeFontSize",
-        "alignment": { "h": "center", "v": "center" },
-    },
-    "StyleSettingsRightTitle": {
+    "RecipeSettingsTextRed": {
         "fontColor": "$FontColorBonesyRed",
-        "pointSize": "$XMediumLargeFontSize",
+        "pointSize": "$MediumLargeFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "left", "v": "center" },
+    },
+    "RecipeSettingsTextBlue": {
+        "fontColor": "$FontColorBlue",
+        "pointSize": "$MediumLargeFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "left", "v": "center" },
+    },
+    "RecipeSettingsTextGold": {
+        "fontColor": "$FontColorGoldYellow",
+        "pointSize": "$MediumLargeFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "left", "v": "center" },
+    },
+    "RecipeSettingsTextPurple": {
+        "fontColor": "$FontColorLightPurple",
+        "pointSize": "$MediumLargeFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "left", "v": "center" },
+    },
+    "StyleSettingsTextH": {
+        "fontColor": "$FontColorLightGold",
+        "pointSize": "$LargeFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "left", "v": "center" },
+        "options": { "lineWrap": true },
+    },
+    "StyleSettingsTextD": {
+        "fontColor": "$FontColorRed",
+        "pointSize": "$XMediumFontSize",
+        "spacing" : "$ReducedSpacing",
         "alignment": { "h": "center", "v": "center" },
+        "options": { "lineWrap": true },
+    },
+    "StyleSettingsTextR": {
+        "fontColor": "$FontColorRed",
+        "pointSize": "$XMediumFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "left", "v": "center" },
+        "options": { "lineWrap": true },
     },
     "StyleSettingsCarousel": {
         "pointSize": "$MediumFontSize",
@@ -362,34 +465,33 @@
         "RuneColor": "$FontColorOrange",
         "EventItemsColor": "$FontColorOrange",
     },
-
     "SkillIconFilenames": [
-        "Spells/amazon/AmSkillicon",
-        "Spells/Sorceress/SoSkillicon",
-        "Spells/Necromancer/NeSkillicon",
-        "Spells/paladin/PaSkillicon",
-        "Spells/Barbarian/BaSkillicon",
-        "Spells/Druid/DrSkillicon",
-        "Spells/Assassin/AsSkillicon",
-        "Spells/SubMenu/Skillicon"
+        "..\\..\\..\\VNP\\SkillPanel\\ST_Amazon_SK",
+        "..\\..\\..\\VNP\\SkillPanel\\ST_Sorceress_SK",
+        "..\\..\\..\\VNP\\SkillPanel\\ST_Necromancer_SK",
+        "..\\..\\..\\VNP\\SkillPanel\\ST_Paladin_SK",
+        "..\\..\\..\\VNP\\SkillPanel\\ST_Barbarian_SK",
+        "..\\..\\..\\VNP\\SkillPanel\\ST_Druid_SK",
+        "Spells\\Assassin\\AsSkillicon",
+		"..\\..\\..\\VNP\\SkillPanel\\ST_Common_SK"
     ],
 
     // HirablesPanel
     "SecondSetIconOffset": { "x": 175 },
 
     // SidePanel
-    "LeftSideSprite": "PANEL\\Docking_Bar\\SidePanel_L",
+    "LeftSideSprite": "Blank",
     "LeftSideRect": { },
     "LeftSideRectImbuePanel": { "x": -236, "y": -205 },
     "LeftSideRectHireMenu": { "x": -236, "y": -204 },
     "LeftSideCatcherRect": { "x": 0, "y": 0, "width": 954, "height": 2160 },
     "LeftHingeRect": { "x": -236, "y": 630 },
-    "LeftHingeSprite": "PANEL\\Docking_Bar\\SidePanel_Hinge_L",
-    "RightSideSprite": "PANEL\\Docking_Bar\\SidePanel_R",
+    "LeftHingeSprite": "Blank",
+    "RightSideSprite": "Blank",
     "RightSideRect": { "x": -732 },
     "RightSideCatcherRect": { "x": -732, "y": 0, "width": 954, "height": 2160 },
     "RightHingeRect": { "x": 1076, "y": 630 },
-    "RightHingeSprite": "PANEL\\Docking_Bar\\SidePanel_Hinge_R",
+    "RightHingeSprite": "Blank",
 
     // Inventory
     "ItemCellSize": { "x": 98, "y": 98 },
@@ -399,14 +501,31 @@
     "OptionsPanelHeight": 1284,
     "OptionsPanelRect": { "x": -865, "y": 400, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
     "OptionsScrollBarRect": { "x": -31, "y": 29, "width": 26, "height": 1208 },
+    "RecipeScrollBarRect": { "x": -30, "y": 29, "width": 26, "height": 1208 },
     "OptionsScrollBarBackgroundRect": { "x": -20, "y": 0 },
+    "RecipeScrollBarBackgroundRect": { "x": 0, "y": 0 },
     "OptionsTableColumn1": { "width": 1000, "alignment": { "h": "fit", "v": "fit" } },
     "OptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
-    "OptionsTableRowHeight": 100,
+    "CraftOptionsTableColumn1": { "width": 970, "alignment": { "h": "fit", "v": "fit" } },
+    "CraftOptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
+    "RWOptionsTableColumn1": { "width": 800, "alignment": { "h": "fit", "v": "fit" } },
+    "RWOptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
+    "CubeOptionsTableColumn1": { "width": 1700, "alignment": { "h": "fit", "v": "fit" } },
+    "OptionsTableRowHeight":100,
+    "CubeOptionsTableRowHeight":80,
+    "SkillPOptionsTableRowHeight":60,
+    "RMDOptionsTableColumn1": { "width": 1000, "alignment": { "h": "fit", "v": "fit" } },
+    "RMDOptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
+    "RMDOptionsTableRowHeight": 60,
+    "RecipeTableColumn1": { "width": 1050, "alignment": { "h": "fit", "v": "fit" } },
+    "RecipeTableColumn2": { "width": 300, "alignment": { "h": "center", "v": "center" } },
+    "RecipeTableRowHeight": 98,
     "OptionsCarouselRect": { "width": 596, "height": 72 },
     "OptionsCarouselFocusIndicatorPadding": { "left": 5, "right": 5 },
     "OptionsDropDownRect": { "width": 625, "height": 56 },
-    "OptionsDropDownBackgroundRect": { "x": 0, "y": 0, "width": 625, "height": 56 },
+    "OptionsDropDownBackgroundRect": { "width": 625, "height": 56 },
+    "CubeOptionsDropDownRect": { "x": 10, "y": 0, "width": 675, "height": 56, "alignment": { "h": "left", "v": "left" } },
+    "CubeOptionsDropDownBackgroundRect": { "x": 10, "y": 0, "width": 675, "height": 56, "alignment": { "h": "left", "v": "left" } },
     "OptionsDropDownLeftCapOffset": { "x": 0, "y": 0 },
     "OptionsDropDownRightCapOffset": { "x": 0, "y": 0 },
     "OptionsNumericContainerRect": { "x": -5, "y": -22 },
@@ -425,6 +544,9 @@
 
     "OptionsSliderFocusIndicatorPadding": { "left": 3, "right": 3 },
     "OptionsDividerRect": { "x": 0, "y": 90 },
+    "CubeOptionsDividerRect": { "x": 0, "y": 60 },
+    "RWOptionsDividerRect": { "x": 0, "y": 75 },
+    "RMDOptionsDividerRect": { "x": 0, "y": 45 },
     "OptionsToggleRect": { "width": 70, "height": 70 },
     "OptionsToggleFocusIndicatorPadding": { "left": 5, "right": 5 },
 
@@ -534,22 +656,6 @@
     },
     "HoldToSkipDurationMilliseconds": 500,
     "HoldToSkipTextTimeoutMilliseconds": 5000,
-
-    "RMDOptionsTableColumn1": { "width": 1000, "alignment": { "h": "fit", "v": "fit" } },
-    "RMDOptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
-    "RMDOptionsTableRowHeight": 60,
-    "RMDOptionsDividerRect": { "x": 0, "y": 45 },
-    "CubeOptionsTableColumn1": { "width": 1700, "alignment": { "h": "fit", "v": "fit" } },
-    "CubeOptionsTableRowHeight":80,
-    "CubeOptionsDropDownRect": { "x": 10, "y": 0, "width": 675, "height": 56, "alignment": { "h": "left", "v": "left" } },
-    "CubeOptionsDropDownBackgroundRect": { "x": 10, "y": 0, "width": 675, "height": 56, "alignment": { "h": "left", "v": "left" } },
-    "CubeOptionsDividerRect": { "x": 0, "y": 60 },
-    "CraftOptionsTableColumn1": { "width": 970, "alignment": { "h": "fit", "v": "fit" } },
-    "CraftOptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
-    "RWOptionsTableColumn1": { "width": 800, "alignment": { "h": "fit", "v": "fit" } },
-    "RWOptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
-    "RWOptionsDividerRect": { "x": 0, "y": 75 },
-
 
     // Account Linking
     "AccountLinkingTileRect": { "x": -875, "y": 561, "width": 1750, "height": 930 },
