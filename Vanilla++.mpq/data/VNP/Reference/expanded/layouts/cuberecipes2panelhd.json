@@ -293,6 +293,111 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
+                                        "text": "Bag Re-rolling",
+                                        "style": "$StyleSettingsTitle",
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider",
+                                            }
+                                        }
+                                    ]
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "You can reoll the following items by cubing them alone first",
+                                        "style": "$RecipeSettingsTextRed",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "- Magic Grand Charm (ilvl 91+) - Baal Skiller",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "- Magic Jewel (ilvl 34+) - AllRes Jewel",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Magic Jewel/Charm + Reroller + Storage Bag(3 Gems) = Re-rolled Item (+100 reqlvl)",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Magic Jewel/Charm(with high reqlvl) = Same item (-100 reqlvl)",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Cube item alone to start. Reroll as you desire. Cube item alone to finalize.",
+                                        "style": "$RecipeSettingsTextRed",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
                                         "text": "Utility",
                                         "style": "$StyleSettingsTitle",
                                     },
@@ -305,6 +410,18 @@
                                             }
                                         }
                                     ]
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Any Item + Socket Puncher = Item (+1 Socket)",
+                                        "style": "$RecipeSettingsText",
+                                    }
                                 },
                             ]
                         },

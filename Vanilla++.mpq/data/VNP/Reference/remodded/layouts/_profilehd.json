@@ -450,7 +450,7 @@
         "borderColor": "$TooltipBorderColor",
         "DefaultColor": "$FontColorWhite",
         "QuestColor": "$FontColorGoldYellow",
-        "RareColor": "$FontColorBonesyRed",
+        "RareColor": "$FontColorYellow",
         "CraftedColor": "$FontColorOrange",
         "TemperedColor": "$FontColorDarkGreen",
         "MagicColor": "$FontColorBlue",
