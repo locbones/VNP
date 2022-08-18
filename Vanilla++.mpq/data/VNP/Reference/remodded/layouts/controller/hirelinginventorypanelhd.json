@@ -3,7 +3,7 @@
     "type": "HirelingInventoryPanel", "name": "HirelingInventoryPanel",
     "fields": {
         "rect": "$ConsoleMercPanelRect",
-        "defaultWidget": "slot_right_arm",
+        "defaultWidget": "slot_right_arm"
     },
     "children": [
         {
@@ -11,10 +11,10 @@
             "fields": {
                 "filename": "..\\..\\..\\VNP\\Hireling",
                 "rect": { "x": 300, "y": -170 }
-            },
+            }
         },
         {
-            "type": "ClickCatcherWidget",
+            "type": "ClickCatcherWidget"
         },
         // Background images for inventory slots
         {
@@ -25,8 +25,8 @@
                 "navigation": {
                     "left": { "name": "slot_right_arm" },
                     "right": { "name": "slot_left_arm" },
-                    "down": { "name": "slot_torso" },
-                },
+                    "down": { "name": "slot_torso" }
+                }
             }
         },
         {
@@ -37,8 +37,8 @@
                 "navigation": {
                     "left": { "name": "slot_right_arm" },
                     "right": { "name": "slot_left_arm" },
-                    "up": { "name": "slot_head" },
-                },
+                    "up": { "name": "slot_head" }
+                }
             }
         },
         {
@@ -49,8 +49,8 @@
                 "backgroundFilename": "PANEL/Inventory/Inventory_Paperdoll_Weapon",
                 "navigation": {
                     "right": { "name": "slot_torso" },
-                    "up": { "name": "slot_head" },
-                },
+                    "up": { "name": "slot_head" }
+                }
             }
         },
         {
@@ -62,8 +62,8 @@
                 "navigation": {
                     "left": { "name": "slot_torso" },
                     "right": { "panelBoundary": true },
-                    "up": { "name": "slot_head" },
-                },
+                    "up": { "name": "slot_head" }
+                }
             }
         },
         {
@@ -74,7 +74,7 @@
                 "location": "belt",
                 "gemSocketFilename": "PANEL\\gemsocket",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Belt",
-                "isHireable": true,
+                "isHireable": true
             }
         },
         {
@@ -85,7 +85,18 @@
                 "location": "right_hand",
                 "gemSocketFilename": "PANEL\\gemsocket",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Ring",
-                "isHireable": false,
+                "isHireable": false
+            }
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_left_hand",
+            "fields": {
+                "rect": { "x": 635, "y": 446, "width": 98, "height": 98 },
+                "cellSize": "$ItemCellSize",
+                "location": "left_hand",
+                "gemSocketFilename": "PANEL\\gemsocket",
+                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Ring",
+                "isHireable": false
             }
         },
         {
@@ -96,7 +107,7 @@
                 "location": "gloves",
                 "gemSocketFilename": "PANEL\\gemsocket",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Glove",
-                "isHireable": false,
+                "isHireable": false
             }
         },
         {
@@ -107,7 +118,7 @@
                 "location": "feet",
                 "gemSocketFilename": "PANEL\\gemsocket",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Boots",
-                "isHireable": false,
+                "isHireable": false
             }
         },
         {
@@ -118,7 +129,7 @@
                 "location": "neck",
                 "gemSocketFilename": "PANEL\\gemsocket",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Amulet",
-                "isHireable": false,
+                "isHireable": false
             }
         },
         {
@@ -128,7 +139,7 @@
                 "style": {
                     "pointSize": "$ExtraLargeFontSize",
                     "alignment": { "h": "left", "v": "bottom" }
-                },
+                }
             }
         },
         {
@@ -140,7 +151,7 @@
                     "fontFace": "Formal",
                     "pointSize": "$MediumLargeFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                },
+                }
             }
         },
         {
@@ -151,7 +162,7 @@
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$MediumFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                },
+                }
             }
         },
         // Level
@@ -162,7 +173,7 @@
                 "style": {
                     "pointSize": "$MediumLargeFontSize",
                     "alignment": { "h": "left", "v": "bottom" }
-                },
+                }
             }
         },
         // Experience
@@ -170,7 +181,7 @@
             "type": "ExpBarWidget", "name": "XpProgress",
             "fields": {
                 "rect": { "x": 430, "y": 680 } ,
-                "filename": "Controller/Panel/HirelingInventory/V2/Expbar",
+                "filename": "Controller/Panel/HirelingInventory/V2/Expbar"
             }
         },
         {
@@ -180,7 +191,7 @@
                 "style": {
                     "pointSize": "$MediumFontSize",
                     "alignment": { "h": "left", "v": "center" }
-                },
+                }
             }
         },
         {
@@ -192,7 +203,7 @@
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$MediumPanelFontSize",
                     "alignment": { "h": "right", "v": "center" }
-                },
+                }
             }
         },
         {
@@ -202,7 +213,7 @@
                 "style": {
                     "pointSize": "$MediumFontSize",
                     "alignment": { "h": "right", "v": "center" }
-                },
+                }
             }
         },
 
@@ -217,7 +228,7 @@
                     "fontFace": "Formal",
                     "pointSize": "$MediumFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                },
+                }
             }
         },
         {
@@ -228,7 +239,7 @@
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$MediumFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                },
+                }
             }
         },
         {
@@ -240,7 +251,7 @@
                     "fontFace": "Formal",
                     "pointSize": "$MediumFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                },
+                }
             }
         },
         {
@@ -251,7 +262,7 @@
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$MediumFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                },
+                }
             }
         },
         {
@@ -263,13 +274,13 @@
                     "fontFace": "Formal",
                     "pointSize": "$MediumFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                },
+                }
             }
         },
         {
             "type": "Widget", "name": "Damage",
             "fields": {
-                "rect": { "x": 591, "y": 1067, "width": 270, "height": 65 },
+                "rect": { "x": 591, "y": 1067, "width": 270, "height": 65 }
             },
             "children": [
                 {
@@ -280,7 +291,7 @@
                             "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                             "pointSize": "$MediumFontSize",
                             "alignment": { "h": "center", "v": "center" }
-                        },
+                        }
                     }
                 },
                 {
@@ -291,7 +302,7 @@
                             "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                             "pointSize": "$SmallFontSize",
                             "alignment": { "h": "center", "v": "top" }
-                        },
+                        }
                     }
                 },
                 {
@@ -302,9 +313,9 @@
                             "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                             "pointSize": "$SmallFontSize",
                             "alignment": { "h": "center", "v": "bottom" }
-                        },
+                        }
                     }
-                },
+                }
             ]
         },
         {
@@ -316,7 +327,7 @@
                     "fontFace": "Formal",
                     "pointSize": "$MediumFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                },
+                }
             }
         },
         {
@@ -327,7 +338,7 @@
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$MediumFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                },
+                }
             }
         },
         // Elemental Resistances
@@ -340,7 +351,7 @@
                     "fontColor":"$FontColorWhite",
                     "fontFace": "Formal",
                     "pointSize": "$MediumFontSize",
-                    "alignment": { "h": "center", "v": "center" },
+                    "alignment": { "h": "center", "v": "center" }
                 },
                 "useAltStyleIfDoesntFit": true,
                 "altStyle": {
@@ -349,7 +360,7 @@
                     "pointSize": "$SmallFontSize",
                     "alignment": { "h": "center", "v": "center" },
                     "spacing": "$MinimumSpacing"
-                },
+                }
             }
         },
         {
@@ -359,8 +370,8 @@
                 "style": {
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$MediumFontSize",
-                    "alignment": { "h": "center", "v": "center" },
-                },
+                    "alignment": { "h": "center", "v": "center" }
+                }
             }
         },
         {
@@ -372,7 +383,7 @@
                     "fontColor":"$FontColorWhite",
                     "fontFace": "Formal",
                     "pointSize": "$MediumFontSize",
-                    "alignment": { "h": "center", "v": "center" },
+                    "alignment": { "h": "center", "v": "center" }
                 },
                 "useAltStyleIfDoesntFit": true,
                 "altStyle": {
@@ -381,7 +392,7 @@
                     "pointSize": "$SmallFontSize",
                     "alignment": { "h": "center", "v": "center" },
                     "spacing": "$MinimumSpacing"
-                },
+                }
             }
         },
         {
@@ -391,8 +402,8 @@
                 "style": {
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$MediumFontSize",
-                    "alignment": { "h": "center", "v": "center" },
-                },
+                    "alignment": { "h": "center", "v": "center" }
+                }
             }
         },
         {
@@ -404,7 +415,7 @@
                     "fontColor":"$FontColorWhite",
                     "fontFace": "Formal",
                     "pointSize": "$MediumFontSize",
-                    "alignment": { "h": "center", "v": "center" },
+                    "alignment": { "h": "center", "v": "center" }
                 },
                 "useAltStyleIfDoesntFit": true,
                 "altStyle": {
@@ -413,7 +424,7 @@
                     "pointSize": "$SmallFontSize",
                     "alignment": { "h": "center", "v": "center" },
                     "spacing": "$MinimumSpacing"
-                },
+                }
             }
         },
         {
@@ -423,8 +434,8 @@
                 "style": {
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$MediumFontSize",
-                    "alignment": { "h": "center", "v": "center" },
-                },
+                    "alignment": { "h": "center", "v": "center" }
+                }
             }
         },
         {
@@ -436,7 +447,7 @@
                     "fontColor":"$FontColorWhite",
                     "fontFace": "Formal",
                     "pointSize": "$MediumFontSize",
-                    "alignment": { "h": "center", "v": "center" },
+                    "alignment": { "h": "center", "v": "center" }
                 },
                 "useAltStyleIfDoesntFit": true,
                 "altStyle": {
@@ -445,7 +456,7 @@
                     "pointSize": "$SmallFontSize",
                     "alignment": { "h": "center", "v": "center" },
                     "spacing": "$MinimumSpacing"
-                },
+                }
             }
         },
         {
@@ -455,9 +466,9 @@
                 "style": {
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$MediumFontSize",
-                    "alignment": { "h": "center", "v": "center" },
-                },
-            },
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
         },
         // Hire skills
         {
@@ -480,6 +491,6 @@
                 "rect": { "x": 1213, "y": 776, "scale": 0.70 },
                 "skillIconFilename": "Spells/Hireables/HrSkillIcon"
             }
-        },
+        }
     ]
 }
