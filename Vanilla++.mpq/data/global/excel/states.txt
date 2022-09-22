@@ -217,3 +217,4 @@ Armor_Red	214																																																						tors	cred				
 Armor_Green	215																																																						tors	cgrn															0
 Armor_Yellow	216																																																						tors	lyel															0
 Armor_Purple	217																																																						tors	lpur															0
+desecrated	218																												1	1																																									0
