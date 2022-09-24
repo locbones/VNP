@@ -2,28 +2,28 @@
     "type": "HoradricCubePanel", "name": "HoradricCubeLayout",
     "fields": {
         "priority": 10,
-        "rect": "$LeftPanelRect",
-        "anchor": "$LeftPanelAnchor",
+        "rect": "$LeftPanelRectS",
+        "anchor": "$LeftPanelAnchor"
     },
     "children": [
         {
             "type": "ClickCatcherWidget", "name": "click_catcher",
             "fields": {
-                "rect": { "x": 0, "y": 0, "width": 1744, "height": 1737 },
-            },
+                "rect": { "x": 0, "y": 0, "width": 1744, "height": 1737 }
+            }
         },
         {
             "type": "ImageWidget", "name": "background",
             "fields": {
-                "filename": "PANEL\\Horadric_Cube\\HoradricCube_BG2",
-            },
+                "filename": "PANEL\\Horadric_Cube\\HoradricCube_BG2"
+            }
         },
         {
             "type": "ImageWidget", "name": "LeftHinge",
             "fields": {
                 "rect": "$LeftHingeRect",
                 "filename": "$LeftHingeSprite"
-            },
+            }
         },
         {
             "type": "TextBoxWidget", "name": "title",
@@ -31,7 +31,7 @@
                 "rect": { "x": 855, "y": 110 },
                 "style": "$StyleTitleBlock",
                 "text": "@box"
-            },
+            }
         },
         {
             "type": "ButtonWidget", "name": "convert",
@@ -40,8 +40,8 @@
                 "filename": "PANEL\\Horadric_Cube\\TransmuteButton",
                 "tooltipString": "@strUiMenu2",
                 "hoveredFrame": 2,
-                "onClickMessage": "HoradricCubePanelMessage:Convert",
-            },
+                "onClickMessage": "HoradricCubePanelMessage:Convert"
+            }
         },
         {
             "type": "ButtonWidget", "name": "Recipes",
@@ -50,8 +50,8 @@
                 "filename": "..\\..\\..\\VNP\\Recipes",
                 "tooltipString": "Show Cube Recipes",
                 "hoveredFrame": 2,
-                "onClickMessage": "PanelManager:OpenPanel:CubeRecipesPanel",
-            },
+                "onClickMessage": "PanelManager:OpenPanel:CubeRecipesPanel"
+            }
         },
         {
             "type": "ButtonWidget", "name": "close",
@@ -60,8 +60,8 @@
                 "filename": "PANEL\\closebtn_4x",
                 "hoveredFrame": 3,
                 "tooltipString": "@strClose",
-                "onClickMessage": "HoradricCubePanelMessage:Close",
-            },
+                "onClickMessage": "HoradricCubePanelMessage:Close"
+            }
         },
         {
             "type": "InventoryGridWidget", "name": "grid",
@@ -69,8 +69,8 @@
                 "rect": { "x": 80, "y": 193, "scale": 1.0 },
                 "cellCount": { "x": 16, "y": 13 },
                 "cellSize": "$ItemCellSize",
-                "gemSocketFilename": "PANEL\\gemsocket",
-            },
+                "gemSocketFilename": "PANEL\\gemsocket"
+            }
         },
         {
             "type": "AnimatedImageWidget", "name": "flourish",
@@ -80,8 +80,8 @@
                 "blendMode": "black",
                 "fps": 14,
                 "playing": false,
-                "loop": false,
-            },
-        },
+                "loop": false
+            }
+        }
     ]
 }
