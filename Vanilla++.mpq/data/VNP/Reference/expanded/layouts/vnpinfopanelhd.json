@@ -2,7 +2,7 @@
     "type": "SettingsPanel", "name": "VNPInfoPanel",
     "fields": {
         "priority": 9002,
-        "fitToParent": true,
+        "fitToParent": true
     },
     "children": [
         {
@@ -22,22 +22,22 @@
                     "type": "Widget", "name": "Anchor",
                     "fields": {
                         "anchor": { "x": 0.5, "y": 0.5 },
-                        "rect": "$SettingsPanelAnchorRect",
+                        "rect": "$SettingsPanelAnchorRect"
                     },
                     "children": [
                         {
                             "type": "ImageWidget", "name": "Background",
                             "fields": {
-                                "filename": "\\PANEL\\Options\\FrontEndOptionsBG",
-                            },
+                                "filename": "\\PANEL\\Options\\FrontEndOptionsBG"
+                            }
                         },
                         {
                             "type": "TextBoxWidget", "name": "Title",
                             "fields": {
                                 "rect": { "x": 0, "y": 50, "width": 1950, "height": 103 },
-                                "text": "Vanilla++ 1.0.3 Info",
-                                "style": "$StyleTitleBlock",
-                            },
+                                "text": "Vanilla++ 1.0.9 Info",
+                                "style": "$StyleTitleBlock"
+                            }
                         },
                         {
                             "type": "ButtonWidget", "name": "CloseButton",
@@ -48,11 +48,11 @@
                                 "onClickMessage": "PanelManager:ClosePanel:VNPInfoPanel",
                                 "tooltipString": "@strClose",
                                 "sound": "cursor_close_window_hd",
-                                "acceptsEscKeyEverywhere": true,
-                            },
-                        },
+                                "acceptsEscKeyEverywhere": true
+                            }
+                        }
                     ]
-                },
+                }
             ]
         },
         {
@@ -60,8 +60,8 @@
             "fields": {
                 "rect": "$SettingsPanelBackgroundRect",
                 "anchor": { "x": 0.5 },
-                "filename": "Controller/Panel/Options/Panel_Options_BG",
-            },
+                "filename": "Controller/Panel/Options/Panel_Options_BG"
+            }
         },
         {
             "type": "TabBarWidget", "name": "OptionsTabs",
@@ -69,7 +69,7 @@
                 "rect": "$SettingsPanelTabsRect",
                 "anchor": { "x": 0.5 },
                 "tabCount": 4,
-                "tabSize": { "x": 266, "y": 121, },
+                "tabSize": { "x": 266, "y": 121 },
                 "tabPadding": { "x": 2, "y": 0 },
                 "unavailableTabsLeaveGaps": false,
                 "tabSizingMethod": "fixedCenter",
@@ -78,7 +78,7 @@
                 "activeFrames": [ 0, 0, 0, 1 ],
                 "activeTextColor": "$TabsActiveTextColor",
                 "inactiveTextColor": "$TabsInactiveTextColor",
-                "tabTextOffset": { "x": 0, "y": -4, },
+                "tabTextOffset": { "x": 0, "y": -4 },
                 "textStyle": {
                     "options": { "lineWrap": true },
                     "pointSize": "$MediumFontSize",
@@ -91,9 +91,9 @@
                     "SettingsPanelMessage:CheckChanges:VNPInfo2Panel",
                     "SettingsPanelMessage:CheckChanges:VNPInfo3Panel",
                     "SettingsPanelMessage:CheckChanges:VNPInfo4Panel",
-                    "SettingsPanelMessage:CheckChanges:VNPInfo5Panel",
-                ],
-            },
-        },
+                    "SettingsPanelMessage:CheckChanges:VNPInfo5Panel"
+                ]
+            }
+        }
     ]
 }

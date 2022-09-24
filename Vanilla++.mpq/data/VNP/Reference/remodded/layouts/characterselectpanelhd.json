@@ -8,14 +8,14 @@
         "noTitleCharacterNamePosition": { "x": 25, "y": 68 },
         "noTitleCharacterLevelClassPosition": { "x": 25, "y": 120 },
         "shiftStatusIconPosition1": { "x": 545, "y": 0 },
-        "shiftStatusIconPosition2": { "x": 490, "y": 0 },
+        "shiftStatusIconPosition2": { "x": 490, "y": 0 }
     },
     "children": [
         {
             "type": "ImageWidget", "name": "Background",
             "fields": {
                 "rect": { "x": -651, "y": 0 },
-                "filename": "..\\..\\..\\VNP\\MainMenu\\Right",
+                "filename": "..\\..\\..\\VNP\\MainMenu\\Right"
             },
             "children": [
                 {
@@ -26,7 +26,7 @@
                         "selectorName": "Selection",
                         "direction": "vertical",
                         "itemSelectionMessage": "CharacterSelect:SelectCharacter",
-                        "selectionChangedSound": "cursor_movement_hd",
+                        "selectionChangedSound": "cursor_movement_hd"
                     },
                     "children": [
                         // character list
@@ -37,8 +37,8 @@
                                 "focusIndicatorFilename": "..\\..\\..\\VNP\\Controller\\CS_Hover",
                                 "focusIndicatorOffset": { "x": -55, "y": 25 },
                                 "navigation": {
-                                    "left": { "panelBoundary": true },
-                                },
+                                    "left": { "panelBoundary": true }
+                                }
                             },
                             "children": [
                                 {
@@ -46,7 +46,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 0 },
                                         "filename": "Blank"
-                                    },
+                                    }
                                 },
                                 {
                                     "type": "ImageWidget", "name": "LadderIcon",
@@ -59,7 +59,7 @@
                                             "type": "FocusableWidget", "name": "LadderIconTooltip",
                                             "fields": {
                                                 "fitToParent": true,
-                                                "tooltipString": "@CharacterSelectPanelLadderCharacter",
+                                                "tooltipString": "@CharacterSelectPanelLadderCharacter"
                                             }
                                         }
                                     ]
@@ -75,7 +75,7 @@
                                             "type": "FocusableWidget", "name": "ClassicIconTooltip",
                                             "fields": {
                                                 "fitToParent": true,
-                                                "tooltipString": "@CharacterSelectPanelPreExpansionCharacter",
+                                                "tooltipString": "@CharacterSelectPanelPreExpansionCharacter"
                                             }
                                         }
                                     ]
@@ -91,7 +91,7 @@
                                             "type": "FocusableWidget", "name": "HardcoreIconTooltip",
                                             "fields": {
                                                 "fitToParent": true,
-                                                "tooltipString": "@strHardcore",
+                                                "tooltipString": "@strHardcore"
                                             }
                                         }
                                     ]
@@ -107,7 +107,7 @@
                                             "pointSize": "$XMediumFontSize",
                                             "spacing": "$ReducedSpacing",
                                             "dropShadow": "$DefaultDropShadow"
-                                        },
+                                        }
                                     }
                                 },
                                 {
@@ -128,7 +128,7 @@
                                             "pointSize": "$SmallFontSize",
                                             "spacing": "$MinimumSpacing",
                                             "dropShadow": "$DefaultDropShadow"
-                                        },
+                                        }
                                     }
                                 },
                                 {
@@ -140,9 +140,9 @@
                                             "pointSize": "$XMediumFontSize",
                                             "spacing": "$ReducedSpacing",
                                             "dropShadow": "$DefaultDropShadow"
-                                        },
+                                        }
                                     }
-                                },
+                                }
 
                             ]
                         },
@@ -150,7 +150,7 @@
                             "type": "ImageWidget", "name": "Selection",
                             "fields": {
                                 "filename": "Blank",
-                                "rect": { "x": 0, "y": 100 },
+                                "rect": { "x": 0, "y": 100 }
                             },
                             "children":[
                                 {
@@ -169,7 +169,7 @@
                 {
                     "type": "ImageWidget", "name": "BackgroundCover",
                     "fields": {
-                        "rect": { "x": -75, "y": 40 },
+                        "rect": { "x": -75, "y": 40 }
                     },
                     "children": [
                         {
@@ -185,7 +185,7 @@
                                 "textColor": "$LightButtonTextColor",
                                 "text/style": "$StyleFEButtonText",
                                 "hoveredFrame": 2,
-                                "disabledFrame": 1,
+                                "disabledFrame": 1
                             },
                             
                             "children": [
@@ -197,10 +197,10 @@
                                             "style": "$StyleButtonLegend",
                                             "style": {
                                                 "dropShadow": "$DefaultDropShadow"
-                                            },
-                                        },
+                                            }
+                                        }
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -211,7 +211,7 @@
                                 "tooltipString": "@strDelete",
                                 "onClickMessage": "CharacterSelect:ShowDeleteCharacterModal",
                                 "hoveredFrame": 2,
-                                "disabledFrame": 3,
+                                "disabledFrame": 3
                             },
                             "children": [
                                 {
@@ -222,10 +222,10 @@
                                             "style": "$StyleButtonLegend",
                                             "style": {
                                                 "dropShadow": "$DefaultDropShadow"
-                                            },
-                                        },
+                                            }
+                                        }
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -237,7 +237,7 @@
                                 "disabledTooltipString": "@CharacterSelectPanelConvertCharacter",
                                 "onClickMessage": "CharacterSelect:ShowConvertCharacterModal",
                                 "hoveredFrame": 2,
-                                "disabledFrame": 3,
+                                "disabledFrame": 3
                             },
                             "children": [
                                 {
@@ -248,10 +248,10 @@
                                             "style": "$StyleButtonLegend",
                                             "style": {
                                                 "dropShadow": "$DefaultDropShadow"
-                                            },
-                                        },
+                                            }
+                                        }
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -271,14 +271,14 @@
                                 "tabSize": { "x": 332, "y": 71 },
                                 "tabPadding": { "x": -1, "y": 0 },
                                 "onSwitchTabMessage": "CharacterSelect:SelectTabbb",
-                                "automaticallyPositionIndicators": false,
+                                "automaticallyPositionIndicators": false
                             }
                         },
                         {
                             "type": "ImageWidget", "name": "ScrollBarBackground",
                             "fields": {
                                 "rect": { "x": 765, "y": 101 },
-                                "filename": "FrontEnd\\HD\\Final\\FrontEnd_Scrollbar",
+                                "filename": "FrontEnd\\HD\\Final\\FrontEnd_Scrollbar"
                             },
                             "children": [
                                 {
@@ -288,9 +288,9 @@
                                         "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
                                         "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
                                         "barFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollIndicator",
-                                        "viewName": "CharacterList",
+                                        "viewName": "CharacterList"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -303,20 +303,20 @@
                                     "pointSize": "$LargeFontSize",
                                     "spacing": "$ReducedSpacing",
                                     "dropShadow": "$DefaultDropShadow"
-                                },
+                                }
                             }
                         },
                         {
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
                                 "rect": { "x": 325, "y": 2045, "width": 400 },
-                                "text":"(v1.0.4)",
+                                "text":"(v1.0.9)",
                                 "style": {
                                     "fontColor": "$FontColorBonesyRed",
                                     "pointSize": "$XMediumPanelFontSize",
                                     "spacing": "$ReducedSpacing",
                                     "dropShadow": "$DefaultDropShadow"
-                                },
+                                }
                             }
                         },
                         {
@@ -337,8 +337,8 @@
                                 "disabledTint": {"a": 1.0 },
                                 "navigation": {
                                     "left": { "name": "QuickPlayButton" },
-                                    "right": { "panelBoundary": true },
-                                },
+                                    "right": { "panelBoundary": true }
+                                }
                             }
                         },
                         {
@@ -355,13 +355,13 @@
                                 "disabledFrame": 3,
                                 "disabledTint": { "a": 1.0 },
                                 "navigation": {
-                                    "up": { "name": "QuickPlayButton" },
-                                },
+                                    "up": { "name": "QuickPlayButton" }
+                                }
                             }
-                        },
+                        }
                     ]
-                },
+                }
             ]
-        },
+        }
     ]
 }

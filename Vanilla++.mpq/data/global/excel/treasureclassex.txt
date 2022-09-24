@@ -11,6 +11,7 @@ Perfect Gem			1						gpv	3	gpy	3	gpb	3	gpg	3	gpr	3	gpw	3	skz	2										0
 Socket Puncher			1					4	y60	1																						0
 Empty Bottle			1					9	y52	1																						0
 Ammo			1					9	aqv	1																						0
+Sunder			1					20	Cold Rupture	2	Flame Rift	2	Crack of the Heavens	2	Rotting Fissure	2	Bone Break	1	Black Cleft	1												0
 Misc 0			1						key	3	tsc	3	isc	3	opl	2	gpl	2														0
 Misc 1			1						key	3	tsc	3	isc	3	opm	2	gpm	2														0
 Misc 2			1						key	3	tsc	3	isc	3	ops	2	gps	2														0
@@ -782,9 +783,9 @@ ROP (H)			1	1024				0	Annihilus	1																						0
 Countess			-3					0	Runes 4	2	SU Rare A1	1																				0
 Countess (N)			-3					0	Runes 8	2	SU Rare (N) A1	1																				0
 Countess (H)			-4					0	Runes 12	2	Pandemonium Key A	1	SU Rare (H) A1	1																		0
-Uber Andariel			1	1024				0	dhn	1																						0
-Uber Duriel			1	1024				0	bey	1																						0
-Uber Izual			1	1024				0	mbr	1																						0
+Uber Andariel			-2	1024				0	dhn	1	Sunder	1																				0
+Uber Duriel			-2	1024				0	bey	1	Sunder	1																				0
+Uber Izual			-2	1024				0	mbr	1	Sunder	1																				0
 Corpsefire			-4	800	800	450	300	0	Act 1 Uitem A	2	Act 1 Cpot A	1	SU Rare A1	1																		0
 Corpsefire (N)		40	-4	800	800	1024	600	0	Act 1 (N) Uitem A	2	Act 1 (N) Cpot A	1	SU Rare (N) A1	1																		0
 Corpsefire (H)		67	-5	800	800	1024	600	0	Act 1 (H) Uitem A	3	Act 1 (H) Cpot A	1	SU Rare (H) A1	1																		0
