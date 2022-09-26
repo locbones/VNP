@@ -468,14 +468,14 @@
         "EventItemsColor": "$FontColorOrange"
     },
     "SkillIconFilenames": [
-        "..\\..\\..\\VNP\\SkillPanel\\ST_Amazon_SK",
-        "..\\..\\..\\VNP\\SkillPanel\\ST_Sorceress_SK",
-        "..\\..\\..\\VNP\\SkillPanel\\ST_Necromancer_SK",
-        "..\\..\\..\\VNP\\SkillPanel\\ST_Paladin_SK",
-        "..\\..\\..\\VNP\\SkillPanel\\ST_Barbarian_SK",
-        "..\\..\\..\\VNP\\SkillPanel\\ST_Druid_SK",
-        "Spells\\Assassin\\AsSkillicon",
-		"..\\..\\..\\VNP\\SkillPanel\\ST_Common_SK"
+        "Spells/amazon/AmSkillicon",
+        "Spells/Sorceress/SoSkillicon",
+        "Spells/Necromancer/NeSkillicon",
+        "Spells/paladin/PaSkillicon",
+        "Spells/Barbarian/BaSkillicon",
+        "Spells/Druid/DrSkillicon",
+        "Spells/Assassin/AsSkillicon",
+        "Spells/SubMenu/Skillicon"
     ],
 
     // HirablesPanel
