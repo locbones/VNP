@@ -27,21 +27,21 @@
                         "wheelScrollSound": "cursor_scroll_hd",
                         "buttonScrollSound": "cursor_scroll_hd"
                     }
-                },
+                }
             ]
         },
         {
             "type": "ScrollViewWidget", "name": "ScrollView",
             "fields": {
                 "fitToParent": true,
-                "scrollControllerName": "ScrollController",
+                "scrollControllerName": "ScrollController"
             },
             "children": [
                 {
                     "type": "TableWidget", "name": "OptionsTable",
                     "fields": {
                         "columns": [ "$OptionsTableColumn1", "$OptionsTableColumn2" ],
-                        "rowHeight": "$CubeOptionsTableRowHeight",
+                        "rowHeight": "$CubeOptionsTableRowHeight"
                     },
                     "children": [
                         {
@@ -51,18 +51,18 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "text": "Storage Bag",
-                                        "style": "$StyleSettingsTitle",
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider",
+                                                "filename": "PauseMenu\\Divider"
                                             }
                                         }
                                     ]
-                                },
+                                }
                             ]
                         },
                         {
@@ -72,9 +72,9 @@
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
                                         "text": "Storage Bag + 1-50 Gems = 1-50 Gems Deposited",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -84,9 +84,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Storage Bag + 1-10 Runes of same type = 1x-10x Rune Points added",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -96,9 +96,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Storage Bag + 1-10 Keys of same type = 1-10 Keys deposited",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -108,9 +108,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Storage Bag + 1-10 Organs of same type = 1-10 Organs deposited",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -120,9 +120,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Storage Bag + Rune Remover = 1 Rune Withdrawal",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -132,9 +132,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Storage Bag + Gem Remover = 1 Gem Withdrawal",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -144,9 +144,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Storage Bag + Key Remover = 1 Key Withdrawal",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -156,9 +156,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Storage Bag + Organ Remover = 1 Organ Withdrawal",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -168,9 +168,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Any Remover = Remover (Next of Same Type)",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -180,18 +180,18 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "text": "Color Dyes",
-                                        "style": "$StyleSettingsTitle",
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider",
+                                                "filename": "PauseMenu\\Divider"
                                             }
                                         }
                                     ]
-                                },
+                                }
                             ]
                         },
                         {
@@ -201,9 +201,9 @@
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
                                         "text": "Storage Bag(50 gems) + Empty Bottle + Gem Remover = Color Dye of gem color type",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -213,9 +213,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Any Item + Color Dye = Color Dyed Item of that color",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -225,9 +225,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Empty Bottle + Color Dyed Item = Remove Color Dye",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -237,18 +237,18 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "text": "Melee Splash Charms",
-                                        "style": "$StyleSettingsTitle",
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider",
+                                                "filename": "PauseMenu\\Divider"
                                             }
                                         }
                                     ]
-                                },
+                                }
                             ]
                         },
                         {
@@ -258,9 +258,9 @@
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
                                         "text": "Storage Bag(50 gems) + Elzix's Equalizer + any spear = Elzix's Equalizer (+Piercing Splash)",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -270,9 +270,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Storage Bag(50 gems) + Elzix's Equalizer + any sword = Elzix's Equalizer (+Cleaving Splash)",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -282,9 +282,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Storage Bag(50 gems) + Elzix's Equalizer + any hammer = Elzix's Equalizer (+Sweeping Splash)",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -294,18 +294,18 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "text": "Bag Re-rolling",
-                                        "style": "$StyleSettingsTitle",
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider",
+                                                "filename": "PauseMenu\\Divider"
                                             }
                                         }
                                     ]
-                                },
+                                }
                             ]
                         },
                         {
@@ -314,10 +314,10 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "You can reoll the following items by cubing them alone first",
-                                        "style": "$RecipeSettingsTextRed",
+                                        "text": "You can reroll the following items by cubing them alone first",
+                                        "style": "$RecipeSettingsTextRed"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -327,9 +327,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "- Magic Grand Charm (ilvl 91+) - Baal Skiller",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -339,9 +339,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "- Magic Jewel (ilvl 34+) - AllRes Jewel",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -351,9 +351,21 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "A reroller is generated automatically when cubing the above items alone",
+                                        "style": "$RecipeSettingsTextRed"
+                                    }
+                                }
                             ]
                         },
                         {
@@ -363,9 +375,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Magic Jewel/Charm + Reroller + Storage Bag(3 Gems) = Re-rolled Item (+100 reqlvl)",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -374,22 +386,10 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Magic Jewel/Charm(with high reqlvl) = Same item (-100 reqlvl)",
-                                        "style": "$RecipeSettingsText",
+                                        "text": "Magic Jewel/Charm(with high reqlvl) + Reroller = Same item (-100 reqlvl)",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Cube item alone to start. Reroll as you desire. Cube item alone to finalize.",
-                                        "style": "$RecipeSettingsTextRed",
-                                    }
-                                },
+                                }
                             ]
                         },
                         {
@@ -399,18 +399,18 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "text": "Utility",
-                                        "style": "$StyleSettingsTitle",
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider",
+                                                "filename": "PauseMenu\\Divider"
                                             }
                                         }
                                     ]
-                                },
+                                }
                             ]
                         },
                         {
@@ -420,9 +420,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Ort Rune + Weapon (Any) = Fully Repaired Weapon",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -432,9 +432,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Ral Rune + Armor (Any) = Fully Repaired Armor",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -444,9 +444,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Ort Rune + Gem (Any) + Weapon (Any) = Repaired and Recharged Weapon",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -456,9 +456,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Ral Rune +  Gem (Any) + Armor (Any) = Repaired and Recharged Armor",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -468,9 +468,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "20 Gems + Socketed Item = Clear Sockets (Keeps Socket Items)",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -480,9 +480,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Hel Rune + Scroll of Town Portal = Clear Sockets (Destroys Socket Items)",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -492,9 +492,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "All 3 Keys (1 each) = Portal to Ubers(Random)",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -504,9 +504,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "All 3 Organs (1 each) = Portal to Tristram (Pandemonium)",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -516,9 +516,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "All 4 Essences (1 each) = Token of Absolution",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -528,18 +528,30 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "text": "Jewelery",
-                                        "style": "$StyleSettingsTitle",
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider",
+                                                "filename": "PauseMenu\\Divider"
                                             }
                                         }
                                     ]
-                                },
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Any Misc item + Identify Scroll = Same item (change inventory graphics)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
                             ]
                         },
                         {
@@ -549,9 +561,9 @@
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
                                         "text": "6 Gems (1 of each type, no skull) + Magic Amulet = Prismatic Amulet",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -561,9 +573,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "1 Magic Ring + 1 Ruby + 1 Exploding Potion = Garnet Ring",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -573,9 +585,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "1 Magic Ring + 1 Sapphire + 1 Thawing Potion = Cobalt Ring",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -585,9 +597,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "1 Magic Ring + 1 Topaz + 1 Rejuvenation Potion = Coral Ring",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -597,9 +609,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "1 Magic Ring + 1 Emerald + 1 Antidote Potion = Jade Ring",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -609,9 +621,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "3 Magic Rings = Magic Amulet",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -621,9 +633,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "3 Magic Amulets = Magic Ring",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -633,18 +645,18 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "text": "Potions",
-                                        "style": "$StyleSettingsTitle",
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider",
+                                                "filename": "PauseMenu\\Divider"
                                             }
                                         }
                                     ]
-                                },
+                                }
                             ]
                         },
                         {
@@ -654,9 +666,9 @@
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
                                         "text": "3 Healing (Any) + 3 Mana (Any) + 2 Gems = Full Rejuvenation",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -666,9 +678,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "3 Healing (Any) + 3 Mana (Any) + Gem = Rejuvenation",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -678,9 +690,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "3 Rejuvenations = Full Rejuvenation",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -690,9 +702,9 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Strangling Gas + Healing Potion (Any) = Antidote",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -702,18 +714,18 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "text": "Quest",
-                                        "style": "$StyleSettingsTitle",
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider",
+                                                "filename": "PauseMenu\\Divider"
                                             }
                                         }
                                     ]
-                                },
+                                }
                             ]
                         },
                         {
@@ -723,9 +735,9 @@
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
                                         "text": "Staff of Kings + Amulet of the Viper = Horadric Staff",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -735,9 +747,9 @@
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
                                         "text": "Khalim's Flail + Heart + Eye + Brain = Khalim's Will",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
                         },
                         {
@@ -747,14 +759,14 @@
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
                                         "text": "Wirt's Leg + Tome of Town Portal = Portal to The Secret Cow Level",
-                                        "style": "$RecipeSettingsText",
+                                        "style": "$RecipeSettingsText"
                                     }
-                                },
+                                }
                             ]
-                        },
+                        }
                     ]
                 }
             ]
-        },
+        }
     ]
 }
