@@ -658,6 +658,7 @@
   { "bet": { "asset": "quest/burning_essence_of_terror" } },
   { "fed": { "asset": "quest/festering_essence_of_destruction" } },
   { "std": { "asset": "body_part/flag" } },
+  { "y00": { "asset": "..//custom//boostpot" } },
   { "y01": { "asset": "..//custom//storagebag" } },
   { "y02": { "asset": "..//custom//removergb" } },
   { "y03": { "asset": "..//custom//removergb" } },
