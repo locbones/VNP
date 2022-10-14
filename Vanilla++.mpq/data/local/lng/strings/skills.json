@@ -35717,7 +35717,24 @@
     "zhCN": "暴击时补充数量"
   },
   {
-    "id": 51000,//Translate Me
+    "id": 27239,
+    "Key": "StrSkillSkillChancePerLevel",
+    "enUS": "%s: %+d%% Chance per level",
+    "zhTW": "%s：每等級 %+d%% 機率",
+    "deDE": "%s: %+d%% Chance pro Stufe",
+    "esES": "%s: %+d%% de probabilidad por nivel",
+    "frFR": "%s : %+d%% de chances par niveau",
+    "itIT": "%s: %+d%% di probabilità per livello",
+    "koKR": "%s: 레벨당 확률 %+d%%",
+    "plPL": "%s: %+d%% do szansy na poziom",
+    "esMX": "%s: %+d%% de probabilidad por nivel",
+    "jaJP": "%s: レベルごとに発生率増加（%+d%%）",
+    "ptBR": "%s: %+d%% de chance por nível",
+    "ruRU": "%s: %+d%% к вероятности за уровень",
+    "zhCN": "%s: 每等级几率 %+d%%"
+  },
+  {
+    "id": 51000, //Translate Me
     "Key": "StrSkillReduceAllRes",
     "enUS": "Elemental Resistance Pierce: %+d%%",
     "zhTW": "所有抗性：%+d%%",
@@ -35733,7 +35750,7 @@
     "ruRU": "Сопротивление стихиям: %+d%%",
     "zhCN": "所有抗性: %+d%%"
   },
-  {//TRANSLATE ME
+  { //TRANSLATE ME
     "id": 51001,
     "Key": "StrSkillElementalDamagePercent",
     "enUS": "Elemental Skill Damage: %+d%%",
