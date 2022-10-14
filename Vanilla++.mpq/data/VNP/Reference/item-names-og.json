@@ -27402,5 +27402,22 @@
     "ptBR": "Moe",
     "ruRU": "Мо",
     "zhCN": "莫伊"
+  },
+  {
+    "id": 50072,
+    "Key": "y00",
+    "deDE": "Boost-Trank",
+    "enUS": "Boost Potion",
+    "esES": "Poción de impulso",
+    "esMX": "Poción de impulso",
+    "frFR": "Pozione potenziata",
+    "itIT": "Potion d'amélioration",
+    "jaJP": "ブーストポーション",
+    "koKR": "부스트 포션",
+    "plPL": "Mikstura Wzmacniająca",
+    "ptBR": "Poção de reforço",
+    "ruRU": "Зелье повышения",
+    "zhCN": "增强药水",
+    "zhTW": "增強藥水"
   }
 ]

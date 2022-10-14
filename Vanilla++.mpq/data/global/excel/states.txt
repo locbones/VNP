@@ -218,3 +218,4 @@ Armor_Green	215																																																						tors	cgrn		
 Armor_Yellow	216																																																						tors	lyel															0
 Armor_Purple	217																																																						tors	lpur															0
 desecrated	218																												1	1																																									0
+boostpot	219																																																																						0
