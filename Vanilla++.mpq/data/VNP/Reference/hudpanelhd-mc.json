@@ -64,7 +64,7 @@
             "type": "ImageWidget", "name": "Overlay",
             "fields": {
                 "rect": { "x": -121, "y": -37 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Controller\\HUD"
+                "filename": "..\\..\\..\\VNP\\Controller\\HUD"
             }
         },
         {
@@ -72,7 +72,7 @@
             "fields": {
                 "rect": { "x": 222, "y": 380 },
                 "hitMargin": { "top": 10, "bottom": 7 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Controller\\ExpBar"
+                "filename": "..\\..\\..\\VNP\\Controller\\ExpBar"
             },
             "children": [
                 {
