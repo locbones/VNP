@@ -4034,68 +4034,6 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "text": "Revenge",
-                                        "style": "$StyleSettingsCenterTitle",
-                                    },
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "text": "(Swords, Axes, Scepters, Hammers)",
-                                        "style": "$StyleSettingsRightTitle",
-                                    },
-                                },
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC1",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC1T",
-                                    "fields": {
-                                        "text": "Nef + Amn + Hel:",
-                                        "style": "$RecipeSettingsCenterText",
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": "$RWOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider",
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "DropdownListWidget", "name": "Resolution",
-                                    "fields": {
-                                        "rect": "$CubeOptionsDropDownRect",
-                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
-                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
-                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
-                                        "pressedFrame": 1,
-                                        "disabledFrame": 2,
-                                        "hoveredFrame": 3,
-                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
-										"states": [ "+35-60 Damage", "+5-7 Sacrifice (Pal)", "Reanimate as Skeleton: 5%", "5% CtC L5 Mind Blast (Hit)", "Deadly Strike: +3-10", "60-100% Enhanced Damage", "10-35% Faster Attack Speed" ],
-                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
-                                        "text/style": "$StyleSettingsCarousel",
-                                        "text/style": { "pointSize": "$SmallMediumFontSize" },
-                                        "textColor": "$FontColorLightGold",
-                                        "tooltipString": "These stats will be applied in addition to your rune and item stats",
-                                        "tooltipStyle": {
-                                            "showAfterDelay": true,
-                                        },
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
                                         "text": "Rhyme",
                                         "style": "$StyleSettingsCenterTitle",
                                     },
