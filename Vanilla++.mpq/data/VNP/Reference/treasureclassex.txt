@@ -11,7 +11,6 @@ Perfect Gem			1						gpv	3	gpy	3	gpb	3	gpg	3	gpr	3	gpw	3	skz	2													0
 Socket Puncher			1					4	y60	1																									0
 Empty Bottle			1					9	y52	1																									0
 Ammo			1					9	aqv	1																									0
-Sunder			1					20	Cold Rupture	2	Flame Rift	2	Crack of the Heavens	2	Rotting Fissure	2	Bone Break	1	Black Cleft	1															0
 Misc 0			1						key	3	tsc	3	isc	3	opl	2	gpl	2																	0
 Misc 1			1						key	3	tsc	3	isc	3	opm	2	gpm	2																	0
 Misc 2			1						key	3	tsc	3	isc	3	ops	2	gps	2																	0
