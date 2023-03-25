@@ -188,7 +188,7 @@ cooldown	185																																																																				
 sharedstash	186																																																																								0
 hidedead	187																											1	1			1																																									0
 impale	188																																																																								0
-powerstrike	189																																																	item_tohit_percent																							0
+desecrated	189																												1	1																																											0
 Weapon_White	190																																																						weap	whit																	0
 Weapon_Black	191																																																						weap	blac																	0
 Weapon_Blue	192																																																						weap	cblu																	0
@@ -217,7 +217,7 @@ Armor_Red	214																																																						tors	cred				
 Armor_Green	215																																																						tors	cgrn																	0
 Armor_Yellow	216																																																						tors	lyel																	0
 Armor_Purple	217																																																						tors	lpur																	0
-desecrated	218																												1	1																																											0
+powerstrike	218																																																	item_tohit_percent																							0
 boostpot	219																																																																								0
 markbear	220	4																																					1				bloodlust_state																														0
 markwolf	221	5										1																											1				impregnated																														0
