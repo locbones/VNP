@@ -93,6 +93,7 @@
                 "rect": { "x": 718, "y": 273, "width": 98, "height": 98 },
                 "cellSize": "$ItemCellSize",
                 "location": "neck",
+                "gemSocketFilename": "PANEL\\gemsocket",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Amulet",
             }
         },
@@ -113,7 +114,7 @@
                 "cellSize": "$ItemCellSize",
                 "location": "right_arm",
                 "gemSocketFilename": "PANEL\\gemsocket",
-                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Weapon",
+                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Weapon"
             }
         },
         {
@@ -123,7 +124,7 @@
                 "cellSize": "$ItemCellSize",
                 "location": "left_arm",
                 "gemSocketFilename": "PANEL\\gemsocket",
-                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Weapon",
+                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Weapon"
             }
         },
         {
@@ -132,7 +133,8 @@
                 "rect": { "x": 344, "y": 690, "width": 98, "height": 98 },
                 "cellSize": "$ItemCellSize",
                 "location": "right_hand",
-                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Ring",
+                "gemSocketFilename": "PANEL\\gemsocket",
+                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Ring"
             }
         },
         {
@@ -141,7 +143,8 @@
                 "rect": { "x": 718, "y": 689, "width": 98, "height": 98 },
                 "cellSize": "$ItemCellSize",
                 "location": "left_hand",
-                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Ring",
+                "gemSocketFilename": "PANEL\\gemsocket",
+                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Ring"
             }
         },
         {
@@ -150,7 +153,8 @@
                 "rect": { "x": 483, "y": 689, "width": 196, "height": 98 },
                 "cellSize": "$ItemCellSize",
                 "location": "belt",
-                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Belt",
+                "gemSocketFilename": "PANEL\\gemsocket",
+                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Belt"
             }
         },
         {
@@ -159,7 +163,8 @@
                 "rect": { "x": 860, "y": 588, "width": 196, "height": 196 },
                 "cellSize": "$ItemCellSize",
                 "location": "feet",
-                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Boots",
+                "gemSocketFilename": "PANEL\\gemsocket",
+                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Boots"
             }
         },
         {
@@ -168,7 +173,8 @@
                 "rect": { "x": 107, "y": 588, "width": 196, "height": 196 },
                 "cellSize": "$ItemCellSize",
                 "location": "gloves",
-                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Glove",
+                "gemSocketFilename": "PANEL\\gemsocket",
+                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Glove"
             }
         },
     ]
