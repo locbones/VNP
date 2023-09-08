@@ -424,6 +424,26 @@
         }
     },
     "StyleNPCDialogueSize": "$MediumFontSize",
+    "RWHeader": {
+        "fontColor": "$FontColorPartyGreen",
+        "pointSize": "$MediumPanelFontSize",
+        "alignment": { "h": "left", "v": "fit" }
+    },
+    "RWInfo": {
+        "fontColor": "$FontColorGoldYellow",
+        "pointSize": "$MediumPanelFontSize",
+        "alignment": { "h": "left", "v": "fit" }
+    },
+    "RWInfoR": {
+        "fontColor": "$FontColorBonesyRed",
+        "pointSize": "$MediumPanelFontSize",
+        "alignment": { "h": "left", "v": "fit" }
+    },
+    "RWInfoS": {
+        "fontColor": "$FontColorOrange",
+        "pointSize": "$LargeFontSize",
+        "alignment": { "h": "center", "v": "fit" }
+    },
 
     "DefaultDropShadow": {
         "shadowColor": { "r": 0, "g": 0, "b": 0, "a": 200 },
@@ -442,9 +462,9 @@
         "drawBorder": false,
         "centeredOnAnchor": true,
         "hp": 0,
-        "backgroundColor": [ 0, 0, 0, 0.75 ],
+        "backgroundColor": [ 0, 0, 0, 0.95 ],
         // This color is used for in-game tooltip label backgrounds
-        "inGameBackgroundColor": [ 0, 0, 0, 0.6 ],
+        "inGameBackgroundColor": [ 0, 0, 0, 0.95 ],
         // This color is used for the show items selected label background
         "inGameShowItemsSelectedBackgroundColor": [ 0, 0.25, 0.5, 1.0 ],
         "substringColor": "$FontColorLightGray",
@@ -510,8 +530,9 @@
     "OptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
     "CraftOptionsTableColumn1": { "width": 970, "alignment": { "h": "fit", "v": "fit" } },
     "CraftOptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
-    "RWOptionsTableColumn1": { "width": 800, "alignment": { "h": "fit", "v": "fit" } },
-    "RWOptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
+    "RWWOptionsTableColumn1": { "width": 425, "alignment": { "h": "left", "v": "center" } },
+    "RWWOptionsTableColumn2": { "width": 500, "alignment": { "h": "left", "v": "center" } },
+    "RWWOptionsTableColumn3": { "width": 100, "alignment": { "h": "left", "v": "center" } },
     "CubeOptionsTableColumn1": { "width": 1700, "alignment": { "h": "fit", "v": "fit" } },
     "OptionsTableRowHeight":100,
     "CubeOptionsTableRowHeight":80,
