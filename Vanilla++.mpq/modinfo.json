@@ -4,25 +4,25 @@
 
 /*
 --My Mod Details--
-Mod Download: https://d2filesdrop.s3.us-east-2.amazonaws.com/Vanilla%2B%2B.zip
+Mod Download: https://github.com/locbones/VNP/archive/refs/heads/main.zip
 Mod Config Download: https://drive.google.com/uc?export=download&id=1fOi1W0eM7rTNzoWkEVR9W0-GZfDfh1Dp
-Mod Version: 1.1.7
-News 1 Title: "D2RLaunch Replacement"
-News 1 Message: "D2RLaunch will be the new method for customizing and starting our mod. It has all the same features as before, but now is available to all mods and players. Please be patient as bugs are ironed out, and as always thanks for your support and patience as things are improved."
-News 2 Title: "Vanilla++ Update 17 Released! (1.1.7)"
-News 2 Message: "This is a D2RLaunch compatibility update. Please read more about this in our Discord."
+Mod Version: Final (1.2.0)
+News 1 Title: "Vanilla++ Final Update Released! (1.2.0)"
+News 1 Message: "This update should fix the reported issues for drops, customizations, etc. Please check the Discord for important information regarding this mod."
+News 2 Title: "Thank You!"
+News 2 Message: "I would like to thank everyone who provided support and kind words - you guys are the real rockstars."
  
 --General Options--
 Map Layouts: Enabled
 UI Themes: Enabled
-Customizations: Disabled
+Customizations: Enabled
 Vault Access: Enabled
 
 --Additional Options--
 Item Icons: Enabled
 Runeword Sorting: Enabled
 HUD Display: Enabled
-Monster Stats Display: Disabled
+Monster Stats Display: Enabled
 */
 
 }
